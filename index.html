@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Flexible Grid System</title>
+  <meta name="description" content="I need the money, I will marry :) Flexible Grid System (Responsive)" />
+  <meta name="keywords" content="flexible, responsive, grid system, dnomak, developer, designer" />
+
+  <!-- jQuery 1.11.1 -->
+  <script src="js/jquery-1.11.1.min.js"></script>
+
+  <!-- jQuery Main -->
+  <script src="js/jquery.main.js"></script>
+
+  <!-- Google Font -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  <!-- Normalize 3.0.1 -->
+  <link rel="stylesheet" href="css/normalize.css">
+
+  <!-- Font Awesome 4.1.0 -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+
+  <!-- Animate.css -->
+  <link href="css/animate.min.css" rel="stylesheet">
+
+  <!-- Flexible Grid System 1.0.0 -->
+  <link href="css/flexible.min.css" rel="stylesheet">
+
+  <!-- Main.css -->
+  <link href="css/main.css" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25094721-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+
+<!-- Wrapper -->
+  <div class="wrapper">
+
+    <!-- Header -->
+      <header id="header">
+        <div class="row text-center animated fadeInDown">
+          <h1>flexible.gs</h1>
+          <h2>Flexible Grid System</h2>
+          <a href="css/flexible.min.css" download class="btn btn-white">Download <span>1.0.0</span></a>
+          <a href="https://github.com/dnomak/flexible.gs" target="_blank" class="btn btn-white"><span>View on Github</span></a>
+        </div>
+        <div class="row text-left animated fadeInUp">
+          <div class="xl-space-5-1 xl-5-3 lg-space-10-1 lg-10-8 xs-1">
+            <div class="padding-rl">
+              <h3 class="text-left">Install Flexible</h3>
+<pre class="black-bg">&lt;head&gt;
+  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;
+  <span>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/flexible.min.css&quot;&gt;</span>
+  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/main.css&quot;&gt;
+&lt;/head&gt;</pre>
+            </div>
+          </div>
+        </div>
+      </header>
+
+    <!-- Social Buttons -->
+      <div class="social-buttons-bg">
+        <div class="row text-center animated fadeIn">
+          <div class="github">
+            <div class="github-star">
+              <iframe src="http://ghbtns.com/github-btn.html?user=dnomak&repo=flexible.gs&type=watch&count=true"
+                allowtransparency="true" frameborder="0" scrolling="0" width="73" height="20"></iframe>
+            </div>
+            <div class="github-follow">
+              <iframe src="http://ghbtns.com/github-btn.html?user=dnomak&type=follow"
+                allowtransparency="true" frameborder="0" scrolling="0" width="119" height="20"></iframe>
+            </div>
+          </div>
+          <div class="twitter">
+            <div class="twitter-share" style="">
+                <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://flexible.gs" data-text="Flexible Grid System" data-via="dnomak"></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+            <div class="twitter-follow">
+                <a href="https://twitter.com/dnomak" class="twitter-follow-button" data-show-count="false"></a>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </div>
+
+    <!-- Main -->
+      <article id="main">
+
+        <!-- Row -->
+          <div class="row text-center">
+            <div class="xl-space-10-4 xl-10-2 md-space-10-3 md-10-4 xs-space-4-1 xs-4-2">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>row</h1>
+                <h4>Max Width</h4>
+                <h6>a Hundred Percent</h6>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="xl-visible xl-space-10-1 xl-10-8 lg-hidden">
+              <div class="line-horizantal"></div>
+            </div>
+          </div>
+
+        <!-- Device -->
+          <div class="row text-center">
+
+            <div class="xl-space-0 xl-10-2 md-space-10-3 md-10-4 xs-space-10-1 xs-10-8">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY xl">
+                <h1>xl</h1>
+                <h4>Macbook (and Others)</h4>
+                <h6>Equal to the maximum width</h6>
+                <svg id="macbook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1484 862" enable-background="new 0 0 1484 862" xml:space="preserve">
+                  <path class="path1" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z"/>
+                  <path class="path2" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z M637,820.5c0,8.56,6.94,15.5,15.5,15.5h179c8.56,0,15.5-6.94,15.5-15.5V820H637V820.5z M1312,50 H172v712h1140V50z"/>
+                </svg>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-hidden lg-visible md-visible sm-hidden xs-hidden xs-space-10-3 xs-10-4">
+              <div class="line-horizantal"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 md-space-10-1 md-10-4 xs-space-10-1 xs-10-8">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY md">
+                <h1>lg</h1>
+                <h4>iPad (Landscape)</h4>
+                <h6>Maximum width 1024 pixels</h6>
+                <svg id="ipad-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1244 848" enable-background="new 0 0 1244 848" xml:space="preserve">
+                  <path class="path1" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z"/>
+                  <path class="path2" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z M1224,424c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35C1208.33,459,1224,443.33,1224,424z M110,40v768h1024V40H110z"/>
+                </svg>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 md-space-0 md-10-4 xs-space-10-1 xs-10-8">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY md">
+                <h1>md</h1>
+                <h4>iPad (Portrait)</h4>
+                <h6>Maximum width 768 pixels</h6>
+                <svg id="ipad-portrait" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 848 1244" enable-background="new 0 0 848 1244" xml:space="preserve">
+                  <path class="path1" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z"/>
+                  <path class="path2" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z M424,1224c19.33,0,35-15.67,35-35c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35C389,1208.33,404.67,1224,424,1224z M808,110H40v1024h768V110z"/>
+                </svg>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 md-space-10-1 md-10-4 xs-space-10-1 xs-10-8">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY sm">
+                <h1>sm</h1>
+                <h4>iPhone (Landscape)</h4>
+                <h6>Maximum width 568 pixels</h6>
+                <svg id="iphone-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 798 380" enable-background="new 0 0 798 380" xml:space="preserve">
+                  <path class="path1" d="M798,50v280c0,27.614-22.386,50-50,50H50 c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h698C775.614,0,798,22.386,798,50z"/>
+                  <path class="path2" d="M798,50v280c0,27.614-22.386,50-50,50H50 c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h698C775.614,0,798,22.386,798,50z M776,190c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35C760.33,225,776,209.33,776,190z M67.5,152c-4.694,0-8.5,3.806-8.5,8.5v59 c0,4.694,3.806,8.5,8.5,8.5h1c4.694,0,8.5-3.806,8.5-8.5v-59c0-4.694-3.805-8.5-8.5-8.5H67.5z M115,30v320h568V30H115z"/>
+                </svg>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 md-space-0 md-10-4 xs-space-10-1 xs-10-8">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY xs">
+                <h1>xs</h1>
+                <h4>iPhone (Portrait)</h4>
+                <h6>Maximum width 320 pixels</h6>
+                <svg id="iphone-portrait" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 380 798" enable-background="new 0 0 380 798" xml:space="preserve">
+                  <path class="path1" d="M330,798H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h280c27.614,0,50,22.386,50,50v698 C380,775.614,357.614,798,330,798z"/>
+                  <path class="path2" d="M330,798H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h280c27.614,0,50,22.386,50,50v698 C380,775.614,357.614,798,330,798z M190,776c19.33,0,35-15.67,35-35s-15.67-35-35-35s-35,15.67-35,35S170.67,776,190,776z M228,67.5 c0-4.694-3.806-8.5-8.5-8.5h-59c-4.694,0-8.5,3.806-8.5,8.5v1c0,4.694,3.806,8.5,8.5,8.5h59c4.694,0,8.5-3.806,8.5-8.5V67.5z M350,115H30v568h320V115z"/>
+                </svg>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+          </div>
+
+        <!-- Push, Space and Pull -->
+          <div class="row">
+            <div class="xl-space-10-1 xl-10-8 md-space-10-3 md-10-4 sm-hidden xs-hidden">
+              <div class="line-horizantal"></div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="xl-space-10-2 xl-10-2 xs-space-10-2 xs-10-6">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>push</h1>
+                <h4>Column Push</h4>
+                <h6>Until the specified column</h6>
+
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 xs-space-10-2 xs-10-6">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>space</h1>
+                <h4>Column Space</h4>
+                <h6>Until the specified column</h6>
+
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+
+            <div class="xl-space-0 xl-10-2 xs-space-10-2 xs-10-6">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>pull</h1>
+                <h4>Column Pull</h4>
+                <h6>Until the specified column</h6>
+
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+          </div>
+
+        <!-- Visible and Hidden -->
+          <div class="row">
+            <div class="xl-visible xl-space-10-3 xl-10-4 lg-visible md-visible md-space-4-1 md-4-2 xs-hidden">
+              <div class="line-horizantal"></div>
+            </div>
+          </div>
+          <div class="row">
+             <div class="xl-visible xl-space-10-3 xl-10-4 lg-visible md-visible md-space-4-1 md-4-2 sm-hidden xs-hidden">
+              <div class="line-horizantal"></div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="xl-space-10-2 xl-10-2 md-space-10-1 md-10-3 xs-space-10-2 xs-10-6">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>visible</h1>
+                <h4>Column Visible</h4>
+                <h6>From xs to xl</h6>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+            <div class="xl-10-2 md-10-3 xs-space-10-2 xs-10-6">
+              <div class="line-vertical"></div>
+              <div class="circle animated flipInY">
+                <h1>hidden</h1>
+                <h4>Column Hidden</h4>
+                <h6>From xs to xl</h6>
+              </div>
+              <div class="line-vertical"></div>
+            </div>
+          </div>
+          <div class="row">
+             <div class="xl-visible xl-space-10-3 xl-10-4 lg-visible md-visible md-space-4-1 md-4-2 xs-hidden">
+              <div class="line-horizantal"></div>
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+
+        <!-- Readme -->
+          <div class="row text-center">
+            <div class="xl-space-10-4 xl-10-2 md-space-10-3 md-10-4 xs-space-10-1 xs-10-8">
+              <a href="https://github.com/dnomak/flexible.gs" target="_blank" class="circle circle-black animated flipInY">
+                <i class="fa fa-book fa-2x"></i>
+                <h1>Read Me</h1>
+                <h6>on Github</h6>
+              </a>
+              <div class="line-vertical"></div>
+            </div>
+          </div>
+
+        <!-- Example Code Snippet -->
+          <div class="example-code-bg text-center">
+            <div class="row text-left">
+              <div class="padding-rl">
+                <div class="row">
+                  <div class="md-2-1 text-left">
+                    <div class="h3">Example Code Snippet</div>
+                  </div>
+                  <div class="md-2-1 text-right">
+                    <div class="h3"><a href="example.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                  </div>
+                </div>
+<pre>&lt;div class=&quot;row&quot;&gt;
+  &lt;div class=&quot;<span class="xl">xl-24-6</span> <span class="lg">lg-space-0 lg-12-3</span> <span class="md">md-space-8-1 md-8-6</span> <span class="sm">sm-space-12-3 sm-12-6</span> <span class="xs">xs-1</span>&quot;&gt;01&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-24-18</span> <span class="lg">lg-12-9</span> <span class="md">md-1</span> <span class="sm">sm-1</span> <span class="xs">xs-1</span>&quot;&gt;02&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-1</span> <span class="lg">lg-1</span> <span class="md">md-1</span> <span class="sm">sm-1</span> <span class="xs">xs-1</span>&quot;&gt;03&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-push-0 xl-10-3</span> <span class="lg">lg-push-12-9 lg-12-3</span> <span class="md">md-2-1</span> <span class="sm">sm-12-6</span> <span class="xs">xs-1</span>&quot;&gt;04&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-pull-0 xl-10-7</span> <span class="lg">lg-pull-12-3 lg-12-9</span> <span class="md">md-2-1</span> <span class="sm">sm-12-6</span> <span class="xs">xs-1</span>&quot;&gt;05&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-visible xl-5-1</span> <span class="lg">lg-visible lg-12-4</span> <span class="md">md-visible md-2-1</span> <span class="sm">sm-visible sm-12-4</span> <span class="xs">xs-visible xs-1</span>&quot;&gt;06&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-visible xl-5-1</span> <span class="lg">lg-visible lg-12-4</span> <span class="md">md-visible md-2-1</span> <span class="sm">sm-visible sm-12-4</span> <span class="xs">xs-visible xs-1</span>&quot;&gt;07&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-visible xl-5-1</span> <span class="lg">lg-visible lg-12-4</span> <span class="md">md-visible md-2-1</span> <span class="sm">sm-visible sm-12-4</span> <span class="xs">xs-visible xs-1</span>&quot;&gt;08&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-visible xl-5-1</span> <span class="lg">lg-visible lg-12-6</span> <span class="md">md-visible md-2-1</span> <span class="sm">sm-hidden</span> <span class="xs">xs-visible xs-1</span>&quot;&gt;09&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-visible xl-5-1</span> <span class="lg">lg-visible lg-12-6</span> <span class="md">md-visible md-2-2</span> <span class="sm">sm-hidden</span> <span class="xs">xs-visible xs-1</span>&quot;&gt;10&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-22-11</span> <span class="lg">lg-20-10</span> <span class="md">md-18-9</span> <span class="sm">sm-1</span> <span class="xs">xs-1</span>&quot;&gt;11&lt;/div&gt;
+  &lt;div class=&quot;<span class="xl">xl-22-11</span> <span class="lg">lg-20-10</span> <span class="md">md-18-9</span> <span class="sm">sm-1</span> <span class="xs">xs-1</span>&quot;&gt;12&lt;/div&gt;
+&lt;/div&gt;</pre>
+
+                <!-- Device Button -->
+                  <div class="color-circle xl-visible lg-hidden">
+                    <a class="xl-circle active"><h1>xl</h1></a>
+                    <a class="lg-circle"><h1>lg</h1></a>
+                    <a class="md-circle"><h1>md</h1></a>
+                    <a class="sm-circle"><h1>sm</h1></a>
+                    <a class="xs-circle"><h1>xs</h1></a>
+                  </div>
+
+              </div>
+            </div>
+          </div>
+
+      <div class="xl-visible lg-hidden">
+
+        <!-- Search Bar -->
+          <div class="line-vertical"></div>
+          <div class="row">
+            <div class="xl-space-12-3 xl-12-6 lg-space-12-2 lg-12-8 xs-12">
+              <div class="search-bar">
+                <div class="row">
+                  <div class="md-12-1 xs-10-1">
+                    <a href="#" class="home">
+                      <i class="fa fa-home fa-2x"></i>
+                    </a>
+                  </div>
+                  <div class="md-12-10 xs-10-8">
+                    <div class="url">
+                      <input type="text" placeholder="example.html" value="http://">
+                    </div>
+                  </div>
+                  <div class="md-12-1 xs-10-1">
+                    <a href="#" class="refresh">
+                      <i class="fa fa-refresh fa-2x"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+
+        <!-- Device -->
+          <div class="macbook-big"></div>
+          <div class="ipad-landscape-big"></div>
+          <div class="ipad-portrait-big"></div>
+          <div class="iphone-landscape-big"></div>
+          <div class="iphone-portrait-big"></div>
+
+      </div>
+
+      <!-- Disqus -->
+        <div class="line-vertical"></div>
+        <div class="line-vertical"></div>
+        <div class="disqus">
+          <div class="row text-left">
+            <script type="text/javascript">
+                var disqus_shortname = 'flexiblegs';
+                (function() {
+                    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+            </script>
+            <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            <!-- <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a> -->
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+
+      <!-- Donate -->
+        <div class="line-vertical"></div>
+        <div class="row text-center">
+          <div class="lg-space-10-3 lg-10-4">
+            <div class="line-vertical"></div>
+            <div class="circle animated flipInY">
+              <div class="h6">Donate with</div>
+              <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="hosted_button_id" value="NHEUHUB8863NS">
+              <input type="image" src="http://flexible.gs/svg/ppcom.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1">
+              </form>
+              <h4>I need the money, I will marry <i class="fa fa-smile-o fa-lg"></i></h4>
+            </div>
+            <div class="line-vertical"></div>
+          </div>
+        </div>
+
+      <!-- Coming Soon -->
+        <div class="row text-center">
+          <div class="lg-space-12-4 lg-12-4 sm-space-10-1 sm-10-8  xs-1">
+            <div class="line-vertical"></div>
+            <div class="circle comingsoon animated flipInY">
+              <h1>Coming Soon</h1>
+              <h4>Flexible Startup Folder and more</h4>
+              <h6>Follow Me</h6>
+            </div>
+            <div class="line-vertical"></div>
+          </div>
+        </div>
+        <div class="line-vertical"></div>
+
+      </article>
+
+  </div>
+
+<!-- Footer -->
+  <footer id="footer">
+    <div class="row text-center">
+      <div class="social-media">
+        <a href="https://github.com/dnomak" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+        <a href="https://twitter.com/dnomak" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+        <a href="http://instagram.com/dnomak" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+        <a href="http://google.com/+dogukanguvennomak" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+      </div>
+      <div class="h1">Doğukan Güven Nomak</div>
+      <div class="h4">Developer & Designer</div>
+      <a href="http://dnomak.com" class="link" target="_blank"><i class="fa fa-link fa-2x"></i></a>
+    </div>
+  </footer>
+
+</body>
+</html>
