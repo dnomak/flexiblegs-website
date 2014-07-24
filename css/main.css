@@ -371,6 +371,12 @@
   }
 
 /* Style */
+  a.dribble-color {
+    color: #e84f89;
+  }
+  a.dribble-color:hover {
+    color: #c12762;
+  }
 
   .comingsoon {
     color: #a1a1a1;
