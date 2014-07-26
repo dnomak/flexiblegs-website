@@ -213,6 +213,7 @@
     -moz-border-radius: 999em;
     border-radius: 999em;
     line-height: 28px;
+    position: relative;
   }
   .btn:focus,
   .btn:active:focus,
@@ -371,11 +372,25 @@
   }
 
 /* Style */
+
   a.dribble-color {
     color: #e84f89;
   }
   a.dribble-color:hover {
     color: #c12762;
+  }
+
+  .new-version {
+    position: absolute;
+    left: -10px;
+    top: -9px;
+    display: inline-block;
+    color: #fff;
+    background: #e74c3c;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 5px 2px 5px;
+    border-radius: 20px;
   }
 
   .comingsoon {
@@ -643,6 +658,10 @@
     margin: 0 10px;
     padding: 10px 5px;
   }
+  .circle.donate {
+    padding: 10px 0;
+  }
+
   a.circle-black {
     border: 1px solid #3A99D8;
     background: #3A99D8;
