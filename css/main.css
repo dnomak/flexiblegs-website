@@ -373,24 +373,18 @@
 
 /* Style */
 
-  #adpacks:before,#adpacks:after {
-    content:" ";
-    display:table
-  }
-  #adpacks:after {
-    clear:both
-  }
   #adpacks {
     padding:10px;
     border: 1px solid #333333;
     background: #222!important;
     border-radius: 6px;
     margin: 30px 10px 0 10px;
+    clear:both;
   }
   #adpacks a {
     color: #fff;
   }
-  #adpacks a {
+  #adpacks a:hover {
     color: #9e9e9e;
   }
   #adpacks a.adpacks-poweredby {
