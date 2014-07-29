@@ -373,6 +373,15 @@
 
 /* Style */
 
+  #adpacks {
+    padding:20px;
+    border: 1px solid #333333;
+    background: #222!important;
+    color: #9e9e9e;
+    font-family: 'Source Code Pro';
+    border-radius: 6px;
+  }
+
   a.dribble-color {
     color: #e84f89;
   }
