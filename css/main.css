@@ -374,12 +374,17 @@
 /* Style */
 
   #adpacks {
-    padding:20px;
+    padding:10px;
     border: 1px solid #333333;
     background: #222!important;
-    color: #9e9e9e;
-    font-family: 'Source Code Pro';
     border-radius: 6px;
+  }
+  #adpacks a {
+    color: #fff;
+  }
+  .adpacks-img {
+    float: left;
+    padding-right: 10px;
   }
 
   a.dribble-color {
