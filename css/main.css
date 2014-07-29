@@ -811,10 +811,7 @@
 /* iPad (Portrait) */
 
   @media (max-width: 768px) {
-    .example-code-bg .md-2-1.text-left,
-    .example-code-bg .md-2-1.text-right {
-      text-align: center;
-    }
+
   }
 
 /* iPhone (Landscape) */
