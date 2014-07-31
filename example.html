@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -14,10 +14,39 @@
   <!-- Normalize 3.0.1 -->
   <link rel="stylesheet" href="css/normalize.css">
 
-  <!-- Flexible Grid System 1.0.0 -->
+  <!-- Flexible Grid System 1.0.1 -->
   <link rel="stylesheet" href="css/flexible.min.css">
 
   <style>
+    html, body {
+      font-family: 'Open Sans', sans-serif;
+      font-size: 12px;
+      color: #222222;
+      background: #fff;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      margin: 0;
+    }
+    #adpacks {
+      padding:20px;
+      background: #3498db;
+      border-radius: 6px;
+      margin: 10px 10px 20px 10px;
+      height: 100px;
+      clear:both;
+      line-height: 20px;
+    }
+    #adpacks a {
+      color: #fff;
+      text-decoration: none;
+    }
+    #adpacks a.adpacks-poweredby {
+      display: block;
+      opacity: 0.5;
+    }
+    .adpacks-img {
+      float: left;
+      padding-right: 10px;
+    }
     .number {
       background: #3498db;
       color: #fff;
@@ -55,7 +84,7 @@
     }
     /* iPad (Landscape) */
       @media (max-width: 1024px) {
-        .number {
+        .number,#adpacks {
           background: #e74c3c;
         }
         .number.slider {
@@ -73,7 +102,7 @@
       }
     /* iPad (Portrait) */
       @media (max-width: 768px) {
-        .number {
+        .number,#adpacks {
           background: #1abc9c;
         }
         .number.menu {
@@ -91,7 +120,7 @@
       }
     /* iPhone (Landscape) */
       @media (max-width: 568px) {
-        .number {
+        .number,#adpacks {
           background: #9b59b6;
         }
         .number.slider {
@@ -109,7 +138,7 @@
       }
     /* iPhone (Portrait) */
       @media (max-width: 320px) {
-        .number {
+        .number,#adpacks {
           background: #f39c12;
         }
       }
@@ -121,7 +150,6 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
     ga('create', 'UA-25094721-4', 'auto');
     ga('send', 'pageview');
   </script>
@@ -142,6 +170,13 @@
       <div class="xl-visible xl-5-1 lg-visible lg-12-6 md-visible md-2-2 sm-hidden xs-visible xs-1"><div class="number section"><span>Section</span> 10</div></div>
       <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="number footer"><span>Footer</span> 11</div></div>
       <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="number footer"><span>Footer</span> 12</div></div>
+    </div>
+
+   <!-- Adpacks -->
+    <div class="row">
+      <div class="xs-1">
+        <script async type="text/javascript" src="//cdn.adpacks.com/adpacks.js?zoneid=1386&serve=C6SI42Y&placement=flexiblegs" id="_adpacks_js"></script>
+      </div>
     </div>
 
 </body>
