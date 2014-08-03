@@ -406,11 +406,28 @@
     top: -9px;
     display: inline-block;
     color: #fff;
-    background: #e74c3c;
+    background: #E54D42;
     font-size: 10px;
     line-height: 14px;
     padding: 0 5px 2px 5px;
     border-radius: 20px;
+  }
+
+
+  a.twitter-top {
+    background: #55ACEE;
+    color: #fff;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+  }
+  a.twitter-top {
+    font-weight: bold;
+    color: #fff;
+  }
+  a.twitter-top:hover {
+    opacity:0.8;
   }
 
   .comingsoon {
@@ -434,34 +451,34 @@
   .color-circle h1 {
     margin-top: 18px;
   }
-  a.xl-circle.active {
+  a.xlstyle-circle.active {
     border: 1px solid #3498db; color: #3498db;
   }
-  a.lg-circle.active {
+  a.lgstyle-circle.active {
     border: 1px solid #e74c3c; color: #e74c3c;
   }
-  a.md-circle.active {
+  a.mdstyle-circle.active {
     border: 1px solid #1abc9c; color: #1abc9c;
   }
-  a.sm-circle.active {
+  a.smstyle-circle.active {
     border: 1px solid #9b59b6; color: #9b59b6;
   }
-  a.xs-circle.active {
+  a.xsstyle-circle.active {
     border: 1px solid #f39c12; color: #f39c12;
   }
-  a.xl-circle:hover {
+  a.xlstyle-circle:hover {
     border: 1px solid #3498db; color: #3498db;
   }
-  a.lg-circle:hover {
+  a.lgstyle-circle:hover {
     border: 1px solid #e74c3c; color: #e74c3c;
   }
-  a.md-circle:hover {
+  a.mdstyle-circle:hover {
     border: 1px solid #1abc9c; color: #1abc9c;
   }
-  a.sm-circle:hover {
+  a.smstyle-circle:hover {
     border: 1px solid #9b59b6; color: #9b59b6;
   }
-  a.xs-circle:hover {
+  a.xsstyle-circle:hover {
     border: 1px solid #f39c12; color: #f39c12;
   }
   iframe.example {
@@ -736,23 +753,23 @@
     color: #fff;
     background: #222!important;
   }
-  pre .xl {
+  pre .xlstyle {
     color: #3498db;
     width: 150px;
   }
-  pre .lg {
+  pre .lgstyle {
     color: #e74c3c;
     width: 170px;
   }
-  pre .md {
+  pre .mdstyle {
     color: #1abc9c;
     width: 170px;
   }
-  pre .sm {
+  pre .smstyle {
     color: #9b59b6;
     width: 180px;
   }
-  pre .xs {
+  pre .xsstyle {
     color: #f39c12;
     width: 145px;
   }
@@ -760,19 +777,19 @@
     margin: 10px;
     padding: 10px!important;
   }
-  .classnames .xl {
+  .classnames .xlstyle {
     width: 110px;
   }
-  .classnames .lg {
+  .classnames .lgstyle {
     width: 110px;
   }
-  .classnames .md {
+  .classnames .mdstyle {
     width: 110px;
   }
-  .classnames .sm {
+  .classnames .smstyle {
     width: 110px;
   }
-  .classnames .xs {
+  .classnames .xsstyle {
     width: 110px;
   }
   pre.black-bg {

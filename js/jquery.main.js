@@ -36,11 +36,11 @@ $(document).ready(function() {
   var xlcircle = function() {
     col = "xl"
 
-    $('.xl-circle').addClass('active');
-    $('.lg-circle').removeClass('active');
-    $('.md-circle').removeClass('active');
-    $('.sm-circle').removeClass('active');
-    $('.xs-circle').removeClass('active');
+    $('.xlstyle-circle').addClass('active');
+    $('.lgstyle-circle').removeClass('active');
+    $('.mdstyle-circle').removeClass('active');
+    $('.smstyle-circle').removeClass('active');
+    $('.xsstyle-circle').removeClass('active');
 
     $('.macbook-big').addClass('animated tada');
     $('.macbook-big').css( "display", "block" );
@@ -55,11 +55,11 @@ $(document).ready(function() {
   var lgcircle = function() {
     col = "lg"
 
-    $('.xl-circle').removeClass('active');
-    $('.lg-circle').addClass('active');
-    $('.md-circle').removeClass('active');
-    $('.sm-circle').removeClass('active');
-    $('.xs-circle').removeClass('active');
+    $('.xlstyle-circle').removeClass('active');
+    $('.lgstyle-circle').addClass('active');
+    $('.mdstyle-circle').removeClass('active');
+    $('.smstyle-circle').removeClass('active');
+    $('.xsstyle-circle').removeClass('active');
 
     $('.ipad-landscape-big').addClass('animated tada');
     $('.ipad-landscape-big').css( "display", "block" );
@@ -74,11 +74,11 @@ $(document).ready(function() {
   var mdcircle = function() {
     col = "md"
 
-    $('.xl-circle').removeClass('active');
-    $('.lg-circle').removeClass('active');
-    $('.md-circle').addClass('active');
-    $('.sm-circle').removeClass('active');
-    $('.xs-circle').removeClass('active');
+    $('.xlstyle-circle').removeClass('active');
+    $('.lgstyle-circle').removeClass('active');
+    $('.mdstyle-circle').addClass('active');
+    $('.smstyle-circle').removeClass('active');
+    $('.xsstyle-circle').removeClass('active');
 
     $('.ipad-portrait-big').addClass('animated tada');
     $('.ipad-portrait-big').css( "display", "block" );
@@ -93,11 +93,11 @@ $(document).ready(function() {
   var smcircle = function() {
     col = "sm"
 
-    $('.xl-circle').removeClass('active');
-    $('.lg-circle').removeClass('active');
-    $('.md-circle').removeClass('active');
-    $('.sm-circle').addClass('active');
-    $('.xs-circle').removeClass('active');
+    $('.xlstyle-circle').removeClass('active');
+    $('.lgstyle-circle').removeClass('active');
+    $('.mdstyle-circle').removeClass('active');
+    $('.smstyle-circle').addClass('active');
+    $('.xsstyle-circle').removeClass('active');
 
     $('.iphone-landscape-big').addClass('animated tada');
     $('.iphone-landscape-big').css( "display", "block" );
@@ -112,11 +112,11 @@ $(document).ready(function() {
   var xscircle = function() {
     col = "xs"
 
-    $('.xl-circle').removeClass('active');
-    $('.lg-circle').removeClass('active');
-    $('.md-circle').removeClass('active');
-    $('.sm-circle').removeClass('active');
-    $('.xs-circle').addClass('active');
+    $('.xlstyle-circle').removeClass('active');
+    $('.lgstyle-circle').removeClass('active');
+    $('.mdstyle-circle').removeClass('active');
+    $('.smstyle-circle').removeClass('active');
+    $('.xsstyle-circle').addClass('active');
 
     $('.iphone-portrait-big').addClass('animated tada');
     $('.iphone-portrait-big').css( "display", "block" );
@@ -158,27 +158,27 @@ $(document).ready(function() {
     window.location="?url="+ url +"&col="+ col +"";
   });
 
-  $( ".xl-circle" ).click(function() {
+  $( ".xlstyle-circle" ).click(function() {
     xlcircle()
     $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
   });
 
-  $( ".lg-circle" ).click(function() {
+  $( ".lgstyle-circle" ).click(function() {
     lgcircle()
     $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
   });
 
-  $( ".md-circle" ).click(function() {
+  $( ".mdstyle-circle" ).click(function() {
     mdcircle()
     $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
   });
 
-  $( ".sm-circle" ).click(function() {
+  $( ".smstyle-circle" ).click(function() {
     smcircle()
     $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
   });
 
-  $( ".xs-circle" ).click(function() {
+  $( ".xsstyle-circle" ).click(function() {
     xscircle()
     $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
   });
