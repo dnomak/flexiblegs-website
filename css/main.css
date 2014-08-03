@@ -41,6 +41,7 @@
     color: #ffffff;
     padding: 40px 0;
     overflow: hidden;
+    min-height: 634px;
   }
 
 /* Main */
