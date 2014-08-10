@@ -41,7 +41,7 @@
     color: #ffffff;
     padding: 40px 0;
     overflow: hidden;
-    min-height: 652px;
+    min-height: 624px;
   }
 
 /* Main */
@@ -184,6 +184,12 @@
   a:hover {
     color: #222222;
     text-decoration: none;
+  }
+  header a {
+    color: #fff;
+  }
+  header a:hover {
+    color: #a1a1a1;
   }
   p {
    margin: 0 0 10px 0;
@@ -413,6 +419,21 @@
     padding: 0 5px 2px 5px;
     border-radius: 20px;
   }
+  .startup-folder{
+    position: relative;
+  }
+  .new-sf {
+    position: absolute;
+    right: -24px;
+    top: -5px;
+    display: inline-block;
+    color: #fff;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 5px 2px 5px;
+    border-radius: 20px;
+    background: #E54D42;
+  }
 
 
   a.twitter-top {
@@ -431,9 +452,7 @@
     opacity:0.8;
   }
 
-  .comingsoon {
-    color: #a1a1a1;
-  }
+
   .color-circle {
     text-align: center;
     padding-top: 30px;
@@ -812,6 +831,12 @@
     border-top: 1px solid #e8e8e8;
     border-bottom: 1px solid #e8e8e8;
   }
+  .comingsoon {
+    color: #fff;
+    background: #1abc9c;
+    border: 1px solid #1abc9c;
+  }
+
 
 /* iPad (Landscape) */
 
