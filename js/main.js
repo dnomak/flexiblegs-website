@@ -12,10 +12,10 @@ function getUrlVars(){
 var url = getUrlVars()["url"];
 var col = getUrlVars()["col"];
 
-function scrolltop(){
+var scrolltop = function() {
   $('.url input').val(url)
   $("html, body").delay(1000).animate({scrollTop: $('.color-circle').offset().top }, 2000);
-}
+};
 
 if(url == null) {
     url = "example.html"
@@ -50,8 +50,6 @@ var xlcircle = function() {
   $('.ipad-portrait-big').css( "display", "none" );
   $('.iphone-landscape-big').css( "display", "none" );
   $('.iphone-portrait-big').css( "display", "none" );
-
-  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 };
 
 var lgcircle = function() {
@@ -71,8 +69,6 @@ var lgcircle = function() {
   $('.ipad-portrait-big').css( "display", "none" );
   $('.iphone-landscape-big').css( "display", "none" );
   $('.iphone-portrait-big').css( "display", "none" );
-
-  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 };
 
 var mdcircle = function() {
@@ -92,8 +88,6 @@ var mdcircle = function() {
   $('.ipad-landscape-big').css( "display", "none" );
   $('.iphone-landscape-big').css( "display", "none" );
   $('.iphone-portrait-big').css( "display", "none" );
-
-  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 };
 
 var smcircle = function() {
@@ -113,8 +107,6 @@ var smcircle = function() {
   $('.ipad-landscape-big').css( "display", "none" );
   $('.ipad-portrait-big').css( "display", "none" );
   $('.iphone-portrait-big').css( "display", "none" );
-
-  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 };
 
 var xscircle = function() {
@@ -134,8 +126,6 @@ var xscircle = function() {
   $('.ipad-landscape-big').css( "display", "none" );
   $('.ipad-portrait-big').css( "display", "none" );
   $('.iphone-landscape-big').css( "display", "none" );
-
-  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 };
 
 if(col == "xl") {
@@ -171,20 +161,25 @@ $( ".refresh" ).click(function() {
 
 $( ".xlstyle-circle" ).click(function() {
   xlcircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
 
 $( ".lgstyle-circle" ).click(function() {
   lgcircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
 
 $( ".mdstyle-circle" ).click(function() {
   mdcircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
 
 $( ".smstyle-circle" ).click(function() {
   smcircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
 
 $( ".xsstyle-circle" ).click(function() {
   xscircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
