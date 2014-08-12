@@ -835,6 +835,13 @@
     color: #fff;
     background: #1abc9c;
     border: 1px solid #1abc9c;
+    display: block;
+  }
+  .comingsoon a{
+    color: #fff;
+  }
+  .comingsoon a:hover{
+    opacity: 0.7;
   }
 
 /* iPad (Landscape) */
