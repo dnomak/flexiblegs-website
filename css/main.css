@@ -52,28 +52,6 @@
     border-top: 0;
     border-bottom: 1px solid #e8e8e8;
   }
-  .github,.twitter {
-    display:inline-block;
-  }
-  .github-star,.github-follow,.twitter-share,.twitter-follow {
-    display:inline-block;
-    overflow: hidden;
-    margin: 0 2px;
-    height: 20px;
-  }
-  .github-star {
-    width:93px;
-  }
-  .github-follow {
-    width:139px;
-  }
-  .twitter-share {
-    width:95px;
-  }
-  .twitter-follow {
-    width:144px;
-  }
-
   #main{
     margin: 0;
   }
@@ -436,19 +414,19 @@
   }
 
 
-  a.twitter-top {
-    background: #55ACEE;
+  a.guideguide-top {
+    background: #7AA1F4;
     color: #fff;
     padding: 10px;
     font-size: 12px;
     font-weight: bold;
     display: block;
   }
-  a.twitter-top {
+  a.guideguide-top {
     font-weight: bold;
     color: #fff;
   }
-  a.twitter-top:hover {
+  a.guideguide-top:hover {
     opacity:0.8;
   }
 
@@ -867,15 +845,6 @@
     }
     .social-buttons-bg {
       padding: 10px 0 10px 0;
-    }
-    .github,.twitter {
-      display: block;
-      width: 50%;
-      float: left;
-    }
-    .github-star,.github-follow,.twitter-share,.twitter-follow {
-      display:block;
-      margin: 5px auto;
     }
   }
 
