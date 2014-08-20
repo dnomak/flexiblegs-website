@@ -1,6 +1,6 @@
-/*! Main.css */
+/*! flexible.main.css */
 
-/* Wrapper */
+/* wrapper */
 
   * {
     -webkit-box-sizing: border-box;
@@ -13,6 +13,10 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
+  [class*="xl-"],[class*="lg-"],[class*="md-"],[class*="sm-"],[class*="xs-"] {
+    font-size: 12px;
+    line-height: 20px;
+  }
   html {
     position: relative;
     min-height: 100%;
@@ -22,7 +26,6 @@
     font-size: 12px;
     color: #222222;
     background: #f5f5f5;
-    line-height: 20px;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     margin: 0 0 0 0; /* Footer Fixed */
   }
@@ -34,17 +37,17 @@
     margin: 0 auto;
   }
 
-/* Header */
+/* header */
 
   #header {
     background: #222222;
     color: #ffffff;
-    padding: 40px 0;
+    padding: 30px 0;
     overflow: hidden;
     min-height: 624px;
   }
 
-/* Main */
+/* main */
 
   .social-buttons-bg {
     background: #ffffff;
@@ -59,7 +62,7 @@
     margin: 0 10px;
   }
 
-/* Footer */
+/* footer */
 
   #footer {
     min-height: 158px;
@@ -70,6 +73,7 @@
     color: #222222;
     padding: 40px 0;
     border-top: 1px solid #e8e8e8;
+    font-size: 12px;
   }
   .social-media {
     margin:10px 0 10px 0;
@@ -80,14 +84,16 @@
   #footer a{
     color: #a1a1a1;
     display: inline-block;
-    padding: 2px;
+    padding: 2px 3px;
+    font-size: 12px;
   }
   #footer a:hover{
     color: #222222;
   }
-  #footer h4{margin-top: 5px;}
+  #footer .h4{margin-top: 5px;}
+  #footer .h4 a{font-size: 16px!important;}
 
-/* Typography */
+/* typography */
 
   h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     display: block;
@@ -173,7 +179,7 @@
    margin: 0 0 10px 0;
   }
 
-/* Buttons */
+/* buttons */
 
   .btn {
     display: inline-block;
@@ -336,7 +342,7 @@
     width: 100%;
   }
 
-/* Image */
+/* image */
 
   figure {
     margin: 0;
@@ -345,7 +351,7 @@
     vertical-align: middle;
   }
 
-/* Tools */
+/* tools */
 
   .clear:before,
   .clear:after {
@@ -356,7 +362,7 @@
     clear: both;
   }
 
-/* Style */
+/* style */
 
   #adpacks {
     padding:10px;
@@ -391,7 +397,7 @@
     top: -9px;
     display: inline-block;
     color: #fff;
-    background: #E54D42;
+    background: #9A5CB4;
     font-size: 10px;
     line-height: 14px;
     padding: 0 5px 2px 5px;
@@ -412,24 +418,6 @@
     border-radius: 20px;
     background: #E54D42;
   }
-
-
-  a.guideguide-top {
-    background: #7AA1F4;
-    color: #fff;
-    padding: 10px;
-    font-size: 12px;
-    font-weight: bold;
-    display: block;
-  }
-  a.guideguide-top {
-    font-weight: bold;
-    color: #fff;
-  }
-  a.guideguide-top:hover {
-    opacity:0.8;
-  }
-
 
   .color-circle {
     text-align: center;
@@ -722,6 +710,7 @@
     height: 40px;
     background: #e8e8e8;
     position: relative;
+    overflow: hidden;
   }
   .line-horizantal {
     height: 10px;
@@ -729,6 +718,8 @@
     margin: -5px -5px;
     border-radius: 5px;
     border-radius: 5px;
+    display: block;
+    overflow: hidden;
   }
   pre {
     padding:20px!important;
@@ -739,6 +730,9 @@
     border-radius: 6px;
     margin: 10px 0;
     padding: 10px 5px;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: left;
   }
   pre span {
     display: inline-block;
@@ -753,23 +747,23 @@
   }
   pre .xlstyle {
     color: #3498db;
-    width: 150px;
+    width: 100px;
   }
   pre .lgstyle {
     color: #e74c3c;
-    width: 170px;
+    width: 100px;
   }
   pre .mdstyle {
     color: #1abc9c;
-    width: 170px;
+    width: 100px;
   }
   pre .smstyle {
     color: #9b59b6;
-    width: 180px;
+    width: 100px;
   }
   pre .xsstyle {
     color: #f39c12;
-    width: 145px;
+    width: 100px;
   }
   pre.classnames {
     margin: 10px;
@@ -815,6 +809,12 @@
     border: 1px solid #1abc9c;
     display: block;
   }
+  .docs {
+    color: #a1a1a1;
+    background: #e8e8e8;
+    border: 1px solid #e8e8e8;
+    display: block;
+  }
   .comingsoon a{
     color: #fff;
   }
@@ -822,13 +822,15 @@
     opacity: 0.7;
   }
 
-/* iPad (Landscape) */
+/* lg */
 
   @media (max-width: 1024px) {
 
+    .color-circle,.device-hidden{display: none;}
+
   }
 
-/* iPad (Portrait) */
+/* md */
 
   @media (max-width: 768px) {
     .example-code-bg .md-2-1.text-left,
@@ -837,7 +839,7 @@
     }
   }
 
-/* iPhone (Landscape) */
+/* sm */
 
   @media (max-width: 568px) {
     h3.text-left {
@@ -848,7 +850,7 @@
     }
   }
 
-/* iPhone (Portrait) */
+/* xs */
 
   @media (max-width: 320px) {
     .btn {
