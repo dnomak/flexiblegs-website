@@ -16,15 +16,37 @@
   }
 
 /* style */
+  .browser-tab{
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #e8e8e8;
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: left;
+    padding: 20px;
+    font-size: 0;
+  }
+  .browser-circle{
+    background: #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 5px;
+  }
   .hodo {
     max-width: 1140px;
-    margin: 50px auto;
+    margin: 0 auto;
     background: #fff;
-    padding: 10px;
-    border-radius: 20px;
+    padding: 0px 10px;
+    border-radius: 6px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #e8e8e8;
   }
   .hede {
-    margin: 20px;
+    margin: 20px 10px;
     background: rgba(52, 152, 219, 0.3);
   }
   .number {
@@ -36,6 +58,7 @@
     line-height: 28px;
     font-weight: 300;
     font-size: 16px;
+    height: 48px;
     letter-spacing: -2pt;
     font-weight: bold;
   }

@@ -32,7 +32,7 @@
   .wrapper {
     overflow: hidden;
   }
-  .row {
+  .container {
     max-width: 1140px;
     margin: 0 auto;
   }
@@ -42,9 +42,9 @@
   #header {
     background: #222222;
     color: #ffffff;
-    padding: 30px 0;
+    padding: 10px 0 30px 0;
     overflow: hidden;
-    min-height: 624px;
+    /*min-height: 624px;*/
   }
 
 /* main */
@@ -392,6 +392,22 @@
     color: #c12762;
   }
 
+  .menu{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    background: #333333;
+    width: 38px;
+    height: 38px;
+    border-radius: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+    opacity: 0.2;
+  }
+  .menu:hover{
+    color: #fff;
+  }
+
   .new-version {
     position: absolute;
     left: 0px;
@@ -422,7 +438,7 @@
 
   .color-circle {
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
   }
   .color-circle a {
     border-radius:50%;
