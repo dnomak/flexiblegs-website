@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Flexible Grid System - Responsive CSS Framework</title>
-  <meta name="description" content="Flexible Grid System is a Responsive CSS Framework. 2.0.0 Released · Front End Development Tools · I need money, I will marry :) @dnomak" />
+  <meta name="description" content="Flexible Grid System is a Responsive CSS Framework. 2.0.1 Released · Front End Development Tools · I need money, I will marry :) @dnomak" />
   <meta name="keywords" content="flexible, grid system, responsive, css framework, front end development tools, dnomak, front-end developer" />
   <meta name="robots" content="All" />
   <link rel="canonical" href="http://flexible.gs" />
@@ -14,7 +14,7 @@
   <!-- Normalize 3.0.1 -->
   <link rel="stylesheet" href="css/normalize.css">
 
-  <!-- Flexible Grid System 2.0.0 -->
+  <!-- Flexible Grid System 2.0.1 -->
   <link href="css/flexible.min.css" rel="stylesheet"> <!-- flexible.gs is compatible with guideguide (http://guideguide.me) -->
 
   <!-- Font Awesome 4.1.0 -->
@@ -31,6 +31,9 @@
 
   <!-- flexible.main.css -->
   <link href="css/flexible.main.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/spaced-out.css" type="text/css" />
+  <script src="js/spaced-out.js"></script>
 
   <!-- Google Analytics -->
   <script>
@@ -57,10 +60,19 @@
                 <h1>flexible.gs</h1>
                 <h2>Flexible Grid System</h2>
                 <a href="#comingsoon" title="Coming Soon :)" class="menu"><i class="fa fa-bars fa-2x"></i></a>
+
+                <div class="big-menu">
+                  <h4><b>2 Column</b> Grid</h4>
+                  <div class="row gt-1-xs no-gt-1-xs">
+                    <div class="xs-2-1"><div class="number"></div></div>
+                    <div class="xs-2-1"><div class="number"></div></div>
+                  </div>
+                </div>
+
               </div>
             </div>
             <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
-              <a href="css/flexible.min.css" download class="btn btn-white">Download <span>2.0.0</span><div class="new-version">new</div></a>
+              <a href="css/flexible.min.css" download class="btn btn-white">Download <span>2.0.1</span><div class="new-version">new</div></a>
             </div>
             <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
               <a href="https://github.com/flexiblegs/flexible.gs" target="_blank" class="btn btn-white"><span>View on Github</span></a>
@@ -389,10 +401,10 @@
       <!-- jQuery 1.11.1 -->
       <script src="js/jquery-1.11.1.min.js"></script>
 
-      <!-- jQuery Main -->
+      <!-- main.js -->
       <script src="js/main.js"></script>
 
-      <!-- jQuery Flexible.js -->
+      <!-- jquery.flexible.js -->
       <script src="js/jquery.flexible.js"></script>
 
   </div>

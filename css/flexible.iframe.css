@@ -1,6 +1,6 @@
 /*! flexible.iframe.css */
 
-/* wrapper */
+/* Wrapper */
 
   html, body {
     font-family: 'Open Sans', sans-serif;
@@ -15,7 +15,7 @@
     line-height: 20px;
   }
 
-/* style */
+/* Style */
   .browser-tab{
     max-width: 1140px;
     margin: 0 auto;
@@ -66,47 +66,49 @@
     opacity: 0.3;
   }
 
-/* lg */
+/* Responsive */
 
-  @media (max-width: 1024px) {
-    .number{
-      /*text-indent: -999999px;*/
-      background: rgba(231, 76, 60, 1);
-    }
-    .hede{
-      background: rgba(231, 76, 60, 0.3);
-    }
-  }
+  /* lg */
 
-/* md */
+    @media (max-width: 1024px) {
+      .number{
+        /*text-indent: -999999px;*/
+        background: rgba(231, 76, 60, 1);
+      }
+      .hede{
+        background: rgba(231, 76, 60, 0.3);
+      }
+    }
 
-  @media (max-width: 768px) {
-    .number{
-      background: rgba(26, 188, 156, 1);
-    }
-    .hede{
-      background: rgba(26, 188, 156, 0.3);
-    }
-  }
+  /* md */
 
-/* sm */
+    @media (max-width: 768px) {
+      .number{
+        background: rgba(26, 188, 156, 1);
+      }
+      .hede{
+        background: rgba(26, 188, 156, 0.3);
+      }
+    }
 
-  @media (max-width: 568px) {
-    .number{
-      background: rgba(155, 89, 182, 1);
-    }
-    .hede{
-      background: rgba(155, 89, 182, 0.3);
-    }
-  }
+  /* sm */
 
-/* xs */
+    @media (max-width: 568px) {
+      .number{
+        background: rgba(155, 89, 182, 1);
+      }
+      .hede{
+        background: rgba(155, 89, 182, 0.3);
+      }
+    }
 
-  @media (max-width: 320px) {
-    .number{
-      background: rgba(243, 156, 18, 0.3);
+  /* xs */
+
+    @media (max-width: 320px) {
+      .number{
+        background: rgba(243, 156, 18, 0.3);
+      }
+      .hede{
+        background: rgba(243, 156, 18, 0.3);
+      }
     }
-    .hede{
-      background: rgba(243, 156, 18, 0.3);
-    }
-  }

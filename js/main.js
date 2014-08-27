@@ -183,7 +183,3 @@ $( ".xsstyle-circle" ).click(function() {
   xscircle()
   $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
-
-// $( ".menu" ).click(function() {
-//   $(".wrapper").css("margin-right", "300px")
-// });
