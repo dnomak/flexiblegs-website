@@ -1,6 +1,6 @@
 /*! flexible.main.css */
 
-/* wrapper */
+/* Wrapper */
 
   * {
     -webkit-box-sizing: border-box;
@@ -414,7 +414,7 @@
     top: -9px;
     display: inline-block;
     color: #fff;
-    background: #2ecc71;
+    background: #3498db;
     font-size: 10px;
     line-height: 14px;
     padding: 0 5px 2px 5px;
@@ -815,6 +815,7 @@
     background: #333333;
     color: #ffffff;
     padding: 5px 5px;
+    margin-left: 15px;
   }
   .example-code-bg {
     background: #ffffff;
@@ -844,9 +845,8 @@
 /* lg */
 
   @media (max-width: 1024px) {
-
     .color-circle,.device-hidden{display: none;}
-
+    .new-version{background: #e74c3c;}
   }
 
 /* md */
@@ -856,6 +856,7 @@
     .example-code-bg .md-2-1.text-right {
       text-align: center;
     }
+    .new-version{background: #1abc9c;}
   }
 
 /* sm */
@@ -867,6 +868,7 @@
     .social-buttons-bg {
       padding: 10px 0 10px 0;
     }
+    .new-version{background: #9b59b6;}
   }
 
 /* xs */
@@ -875,4 +877,5 @@
     .btn {
       padding: 0px 20px;
     }
+    .new-version{background: #f39c12;}
   }
