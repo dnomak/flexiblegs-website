@@ -183,3 +183,7 @@ $( ".xsstyle-circle" ).click(function() {
   xscircle()
   $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
+
+// $( ".navicon" ).click(function() {
+  // $("#menu").css("display", "block");
+// });
