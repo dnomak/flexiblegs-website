@@ -185,5 +185,9 @@ $( ".xsstyle-circle" ).click(function() {
 });
 
 // $( ".navicon" ).click(function() {
-  // $("#menu").css("display", "block");
+//   $("#menu").css("display", "block");
+// });
+
+// $( ".close" ).click(function() {
+//   $("#menu").css("display", "none");
 // });
