@@ -73,7 +73,7 @@
   #menu .h2{
     margin: 10px 0 0px 0;
   }
-  #menu a.h6{color: #fff; display: none;}
+  #menu a.h6{color: #fff;}
   #menu a.h6:hover{opacity: 1;}
   #menu .btn-white span {
     color:#fff;
