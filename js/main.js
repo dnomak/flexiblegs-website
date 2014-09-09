@@ -254,6 +254,11 @@ $( ".smstyle-circle" ).click(function() {
   $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
 });
 
+$( ".xsstyle-circle" ).click(function() {
+  xscircle()
+  $("html, body").delay(0).animate({scrollTop: $('.color-circle').offset().top }, 500);
+});
+
 
 
 
