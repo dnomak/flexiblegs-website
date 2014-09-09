@@ -6,7 +6,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 12px;
     color: #222222;
-    background: #f5f5f5;
+    background: #fff;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     margin: 0;
   }
@@ -15,54 +15,85 @@
     line-height: 20px;
   }
 
-/* Style */
-  .browser-tab{
-    max-width: 1140px;
-    margin: 0 auto;
-    background: #e8e8e8;
+/* Adpacks */
+
+  #adpacks {
+    padding:10px;
+    background: #3498db;
     border-radius: 6px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
+    margin: 10px;
+    height: 120px;
+    clear:both;
+    line-height: 20px;
     text-align: left;
-    padding: 20px;
-    font-size: 0;
   }
-  .browser-circle{
-    background: #fff;
-    border-radius: 50%;
-    width: 12px;
-    height: 12px;
-    display: inline-block;
-    margin-right: 5px;
-  }
-  .hodo {
-    max-width: 1140px;
-    margin: 0 auto;
-    background: #fff;
-    padding: 0px 10px;
-    border-radius: 6px;
-    border-top-right-radius: 0;
-    border-top-left-radius: 0;
-    border: 1px solid #e8e8e8;
-  }
-  .hede {
-    margin: 20px 10px;
-    background: rgba(52, 152, 219, 0.3);
-  }
-  .number {
-    background: rgba(52, 152, 219, 1);
+  #adpacks a {
     color: #fff;
+    text-decoration: none;
+  }
+  #adpacks a.adpacks-poweredby {
+    display: block;
+    opacity: 0.5;
+  }
+  .adpacks-img {
+    float: left;
+    padding-right: 10px;
+  }
+
+/* Style */
+
+  .example-home {
+    background: #3498db;
+    color: #fff;
+    border-radius:6px;
+    margin:10px 0;
     padding: 10px 0;
     text-align: center;
     display: block;
     line-height: 28px;
     font-weight: 300;
-    font-size: 16px;
-    height: 48px;
+    font-size: 28px;
     letter-spacing: -2pt;
     font-weight: bold;
   }
-  .number span {
+  .example-home span {
+    opacity: 0.3;
+  }
+  .example-home.logo {
+    padding:50px 0;
+  }
+  .example-home.slider {
+    padding:70px 0;
+  }
+  .example-home.content {
+    padding:76px 0;
+  }
+  .example-home.sidebar {
+    padding:76px 0;
+  }
+  .example-home.section {
+    padding:30px 0;
+  }
+
+  .wrap {
+    margin: 20px 10px;
+    background: rgba(52, 152, 219, 0.3);
+    border-radius: 6px;
+    overflow: hidden;
+  }
+  .example-grid {
+    background: rgba(52, 152, 219, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 10px 2px;
+    text-align: center;
+    display: block;
+    line-height: 28px;
+    font-size: 12px;
+    height: 48px;
+    /*text-indent: -9999px;*/
+    overflow-x: scroll;
+  }
+  .example-grid span {
     opacity: 0.3;
   }
 
@@ -71,44 +102,89 @@
   /* lg */
 
     @media (max-width: 1024px) {
-      .number{
+      .example-grid{
         /*text-indent: -999999px;*/
         background: rgba(231, 76, 60, 1);
       }
-      .hede{
+      .wrap{
         background: rgba(231, 76, 60, 0.3);
+      }
+      .example-home,#adpacks {
+        background: #e74c3c;
+      }
+      .example-home.slider {
+        padding:62px 0;
+      }
+      .example-home.content {
+        padding:66px 0;
+      }
+      .example-home.sidebar {
+        padding:66px 0;
+      }
+      .example-home.section {
+        padding:26px 0;
       }
     }
 
   /* md */
 
     @media (max-width: 768px) {
-      .number{
+      .example-grid{
         background: rgba(26, 188, 156, 1);
       }
-      .hede{
+      .wrap{
         background: rgba(26, 188, 156, 0.3);
+      }
+      .example-home,#adpacks {
+        background: #1abc9c;
+      }
+      .example-home.slider {
+        padding:76px 0;
+      }
+      .example-home.content {
+        padding:96px 0;
+      }
+      .example-home.sidebar {
+        padding:96px 0;
       }
     }
 
   /* sm */
 
     @media (max-width: 568px) {
-      .number{
+      .example-grid{
         background: rgba(155, 89, 182, 1);
       }
-      .hede{
+      .wrap{
         background: rgba(155, 89, 182, 0.3);
+      }
+      .example-home,#adpacks {
+        background: #9b59b6;
+      }
+      .example-home.slider {
+        padding:62px 0;
+      }
+      .example-home.content {
+        padding:66px 0;
+      }
+      .example-home.sidebar {
+        padding:66px 0;
+      }
+      .example-home.section {
+        padding:26px 0;
       }
     }
 
   /* xs */
 
     @media (max-width: 320px) {
-      .number{
+      .example-grid{
+        background: rgba(243, 156, 18, 1);
+      }
+      .wrap{
         background: rgba(243, 156, 18, 0.3);
       }
-      .hede{
-        background: rgba(243, 156, 18, 0.3);
+      .example-home,#adpacks {
+        background: #f39c12;
       }
     }

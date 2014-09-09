@@ -57,8 +57,6 @@
     overflow: hidden;
     min-height: 584px;
   }
-
-
   #menu {
     background: #3498db;
     color: #ffffff;
@@ -75,6 +73,8 @@
   #menu .h2{
     margin: 10px 0 0px 0;
   }
+  #menu a.h6{color: #fff;}
+  #menu a.h6:hover{opacity: 1;}
   #menu .btn-white span {
     color:#fff;
     opacity: 0.5;
@@ -127,7 +127,6 @@
     padding-top: 6px;
     cursor: pointer;
     color: #fff;
-    opacity: 0.2;
   }
   a.close{
     background: rgba(255, 255, 255, 0.3);
@@ -138,6 +137,9 @@
     color: #a1a1a1;
   }
   a.close:hover{
+    color: #fff;
+  }
+  #header h1 a:hover{
     color: #fff;
   }
 
@@ -394,6 +396,91 @@
 
 /* Style */
 
+  .browser{
+    max-width: 1142px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+  }
+  .browser-tab{
+    background: #e8e8e8;
+    border-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    text-align: left;
+    padding: 20px;
+    font-size: 0;
+  }
+  .browser-circle{
+    background: #fff;
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  .browser-page {
+    background: #fff;
+    padding: 0px;
+    border-radius: 0;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border: 1px solid #e8e8e8;
+    -webkit-overflow-scrolling: touch!important;
+    line-height: 0;
+  }
+
+  .example-grid-2 iframe.example,
+  .example-grid-3 iframe.example,
+  .example-grid-4 iframe.example,
+  .example-grid-5 iframe.example,
+  .example-grid-6 iframe.example,
+  .example-grid-7 iframe.example,
+  .example-grid-8 iframe.example,
+  .example-grid-9 iframe.example,
+  .example-grid-10 iframe.example,
+  .example-grid-11 iframe.example,
+  .example-grid-12 iframe.example,
+  .example-grid-13 iframe.example,
+  .example-grid-14 iframe.example,
+  .example-grid-15 iframe.example,
+  .example-grid-16 iframe.example,
+  .example-grid-17 iframe.example,
+  .example-grid-18 iframe.example,
+  .example-grid-19 iframe.example,
+  .example-grid-20 iframe.example,
+  .example-grid-21 iframe.example,
+  .example-grid-22 iframe.example,
+  .example-grid-23 iframe.example,
+  .example-grid-24 iframe.example {
+    max-width: 1140px;
+    overflow: hidden;
+  }
+  .example-grid-2 iframe.example{height: 156px;}
+  .example-grid-3 iframe.example{height: 156px;}
+  .example-grid-4 iframe.example{height: 224px;}
+  .example-grid-5 iframe.example{height: 224px;}
+  .example-grid-6 iframe.example{height: 292px;}
+  .example-grid-7 iframe.example{height: 292px;}
+  .example-grid-8 iframe.example{height: 360px;}
+  .example-grid-9 iframe.example{height: 360px;}
+  .example-grid-10 iframe.example{height: 428px;}
+  .example-grid-11 iframe.example{height: 428px;}
+  .example-grid-12 iframe.example{height: 496px;}
+  .example-grid-13 iframe.example{height: 496px;}
+  .example-grid-14 iframe.example{height: 564px;}
+  .example-grid-15 iframe.example{height: 564px;}
+  .example-grid-16 iframe.example{height: 632px;}
+  .example-grid-17 iframe.example{height: 632px;}
+  .example-grid-18 iframe.example{height: 700px;}
+  .example-grid-19 iframe.example{height: 700px;}
+  .example-grid-20 iframe.example{height: 768px;}
+  .example-grid-21 iframe.example{height: 768px;}
+  .example-grid-22 iframe.example{height: 836px;}
+  .example-grid-23 iframe.example{height: 836px;}
+  .example-grid-24 iframe.example{height: 904px;}
+
+
   #adpacks {
     padding:10px;
     background: #333;
@@ -468,36 +555,38 @@
   .color-circle h1 {
     margin-top: 18px;
   }
-  a.xlstyle-circle.active {
+
+  a.xlstyle-circle.active, a.xlstyle-browser-click.active {
     border: 1px solid #3498db; color: #3498db;
   }
-  a.lgstyle-circle.active {
+  a.lgstyle-circle.active, a.lgstyle-browser-click.active {
     border: 1px solid #e74c3c; color: #e74c3c;
   }
-  a.mdstyle-circle.active {
+  a.mdstyle-circle.active, a.mdstyle-browser-click.active {
     border: 1px solid #1abc9c; color: #1abc9c;
   }
-  a.smstyle-circle.active {
+  a.smstyle-circle.active, a.smstyle-browser-click.active {
     border: 1px solid #9b59b6; color: #9b59b6;
   }
-  a.xsstyle-circle.active {
+  a.xsstyle-circle.active, a.xsstyle-browser-click.active {
     border: 1px solid #f39c12; color: #f39c12;
   }
-  a.xlstyle-circle:hover {
+  a.xlstyle-circle:hover, a.xlstyle-browser-click:hover {
     border: 1px solid #3498db; color: #3498db;
   }
-  a.lgstyle-circle:hover {
+  a.lgstyle-circle:hover, a.lgstyle-browser-click:hover {
     border: 1px solid #e74c3c; color: #e74c3c;
   }
-  a.mdstyle-circle:hover {
+  a.mdstyle-circle:hover, a.mdstyle-browser-click:hover {
     border: 1px solid #1abc9c; color: #1abc9c;
   }
-  a.smstyle-circle:hover {
+  a.smstyle-circle:hover, a.smstyle-browser-click:hover {
     border: 1px solid #9b59b6; color: #9b59b6;
   }
-  a.xsstyle-circle:hover {
+  a.xsstyle-circle:hover, a.xsstyle-browser-click:hover {
     border: 1px solid #f39c12; color: #f39c12;
   }
+
   iframe.example {
     margin:0;
     padding:0;
@@ -884,6 +973,7 @@
       }
       #menu,.new-version,a.comingsoon,a.readme{background: #9b59b6;}
       a.close{color: #9b59b6;}
+      .link-hidden{display: none;}
     }
 
   /* xs */

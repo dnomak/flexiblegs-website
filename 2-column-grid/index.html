@@ -5,23 +5,23 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Responsive Grid System - flexible.gs</title>
-  <meta name="description" content="Flexible Grid System is a Responsive CSS Framework. 2.0.1 Released · Front End Development Tools · I need money, I will marry :) @dnomak" />
-  <meta name="keywords" content="flexible, grid system, responsive, css framework, front end development tools, dnomak, front-end developer" />
+  <title>2 Column Grid - flexible.gs</title>
+  <meta name="description" content="2 column grid example code snippet view example page." />
+  <meta name="keywords" content="2 column grid, flexible, grid system, responsive, css framework" />
   <meta name="robots" content="All" />
   <link rel="canonical" href="http://flexible.gs" />
 
   <!-- Normalize 3.0.1 -->
-  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="../css/normalize.css">
 
   <!-- Flexible Grid System 2.0.1 -->
-  <link href="css/flexible.min.css" rel="stylesheet"> <!-- flexible.gs is compatible with guideguide (http://guideguide.me) -->
+  <link href="../css/flexible.min.css" rel="stylesheet"> <!-- flexible.gs is compatible with guideguide (http://guideguide.me) -->
 
   <!-- Font Awesome 4.1.0 -->
-  <link rel="stylesheet" href="css/font-awesome.min.css"> <!-- and ../fonts folder -->
+  <link rel="stylesheet" href="../css/font-awesome.min.css"> <!-- and ../fonts folder -->
 
   <!-- Animate.css 3.2.0 -->
-  <link href="css/animate.min.css" rel="stylesheet">
+  <link href="../css/animate.min.css" rel="stylesheet">
 
   <!-- Flat UI Colors (http://flatuicolors.com) -->
 
@@ -30,7 +30,7 @@
   <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 
   <!-- flexible.main.css -->
-  <link href="css/flexible.main.css" rel="stylesheet">
+  <link href="../css/flexible.main.css" rel="stylesheet">
 
   <!-- Google Analytics -->
   <script>
@@ -45,10 +45,7 @@
 </head>
 <body>
 
-<!-- Wrapper -->
-  <div class="wrapper">
-
-    <!-- Header Wrapper -->
+  <!-- Header Wrapper -->
 
       <!-- Menu -->
         <div id="menu">
@@ -489,182 +486,60 @@
           </div>
         </div>
 
-    <!-- Main -->
-      <article id="main">
+  <!-- Main -->
+
+    <!-- Example Code Snippet -->
+      <div class="line-vertical"></div>
+      <div class="line-vertical"></div>
+      <div class="example-code-bg text-center">
         <div class="container">
-          <div class="device-hidden">
-            <!-- Row -->
-              <div class="row">
-                <div class="xl-10-2 md-10-4 xs-4-2">
-                  <div class="line-vertical"></div>
-                  <div class="circle animated flipInY">
-                    <h1>row</h1>
-                    <h4>Max Width</h4>
-                    <h6>a Hundred Percent</h6>
-                  </div>
-                  <div class="line-vertical"></div>
-                </div>
-              </div>
+          <div class="row text-left">
+            <div class="padding-rl">
               <div class="row">
                 <div class="xl-10-8">
-                  <div class="line-horizantal"></div>
+                  <div class="row">
+                    <div class="xs-1">
+                      <div class="h2"><b>2 Column</b> Grid</div>
+                    </div>
+                    <div class="md-2-1 text-left">
+                      <div class="h3">Example Code Snippet</div>
+                    </div>
+                    <div class="md-2-1 text-right">
+                      <div class="h3"><a href="example.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                    </div>
+                  </div>
+                  <pre>&lt;div class=&quot;row gt-2-xs no-gt-2-xs&quot;&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-1</span> <span class="lgstyle">lg-1</span> <span class="mdstyle">md-1</span> <span class="smstyle">sm-1</span> <span class="xsstyle">xs-1</span>&quot;&gt;02&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-2-1</span> <span class="lgstyle">lg-2-1</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-2-1</span> <span class="xsstyle">xs-2-1</span>&quot;&gt;01&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-2-1</span> <span class="lgstyle">lg-2-1</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-2-1</span> <span class="xsstyle">xs-2-1</span>&quot;&gt;01&lt;/div&gt;<br/>&lt;/div&gt;</pre>
                 </div>
               </div>
-            <!-- Device -->
-              <div class="row">
-                  <div class="xl-10-2 md-10-4 xs-10-8">
-                    <div class="line-vertical"></div>
-                    <div class="circle animated flipInY xlstyle">
-                      <h1>xl</h1>
-                      <h4>Macbook (and Others)</h4>
-                      <h6>Equal to the maximum width</h6>
-                      <svg id="macbook" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1484 862" enable-background="new 0 0 1484 862" xml:space="preserve">
-                        <path class="path1" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z"/>
-                        <path class="path2" d="M1444,862h-90h-50h-50H230h-50h-50H40c0,0-40-6.29-40-14.001 C0,835.783,0,820,0,820h130v-8v-50V50c0-27.614,22.386-50,50-50h1124c27.614,0,50,22.386,50,50v712v50v8h130c0,0,0,15.783,0,27.999 C1484,855.71,1444,862,1444,862z M637,820.5c0,8.56,6.94,15.5,15.5,15.5h179c8.56,0,15.5-6.94,15.5-15.5V820H637V820.5z M1312,50 H172v712h1140V50z"/>
-                      </svg>
-                    </div>
-                    <div class="line-vertical"></div>
-                  </div>
-                  <div class="xl-10-2 md-10-4 xs-10-8">
-                    <div class="line-vertical"></div>
-                    <div class="circle animated flipInY lgstyle">
-                      <h1>lg</h1>
-                      <h4>iPad (Landscape)</h4>
-                      <h6>Maximum width 1024 pixels</h6>
-                      <svg id="ipad-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1244 848" enable-background="new 0 0 1244 848" xml:space="preserve">
-                        <path class="path1" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z"/>
-                        <path class="path2" d="M1244,60v728c0,33.137-26.863,60-60,60H60 c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0h1124C1217.137,0,1244,26.863,1244,60z M1224,424c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35C1208.33,459,1224,443.33,1224,424z M110,40v768h1024V40H110z"/>
-                      </svg>
-                    </div>
-                    <div class="line-vertical"></div>
-                  </div>
-                  <div class="xl-10-2 md-10-4 xs-10-8">
-                    <div class="line-vertical"></div>
-                    <div class="circle animated flipInY mdstyle">
-                      <h1>md</h1>
-                      <h4>iPad (Portrait)</h4>
-                      <h6>Maximum width 768 pixels</h6>
-                      <svg id="ipad-portrait" version="1.1"  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 848 1244" enable-background="new 0 0 848 1244" xml:space="preserve">
-                        <path class="path1" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z"/>
-                        <path class="path2" d="M788,1244H60c-33.137,0-60-26.863-60-60V60C0,26.863,26.863,0,60,0 h728c33.137,0,60,26.863,60,60v1124C848,1217.137,821.137,1244,788,1244z M424,1224c19.33,0,35-15.67,35-35c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35C389,1208.33,404.67,1224,424,1224z M808,110H40v1024h768V110z"/>
-                      </svg>
-                    </div>
-                    <div class="line-vertical"></div>
-                  </div>
-                  <div class="xl-10-2 md-10-4 xs-10-8">
-                    <div class="line-vertical"></div>
-                    <div class="circle animated flipInY smstyle">
-                      <h1>sm</h1>
-                      <h4>iPhone (Landscape)</h4>
-                      <h6>Maximum width 568 pixels</h6>
-                      <svg id="iphone-landscape" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 798 380" enable-background="new 0 0 798 380" xml:space="preserve">
-                        <path class="path1" d="M798,50v280c0,27.614-22.386,50-50,50H50 c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h698C775.614,0,798,22.386,798,50z"/>
-                        <path class="path2" d="M798,50v280c0,27.614-22.386,50-50,50H50 c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h698C775.614,0,798,22.386,798,50z M776,190c0-19.33-15.67-35-35-35 c-19.33,0-35,15.67-35,35c0,19.33,15.67,35,35,35C760.33,225,776,209.33,776,190z M67.5,152c-4.694,0-8.5,3.806-8.5,8.5v59 c0,4.694,3.806,8.5,8.5,8.5h1c4.694,0,8.5-3.806,8.5-8.5v-59c0-4.694-3.805-8.5-8.5-8.5H67.5z M115,30v320h568V30H115z"/>
-                      </svg>
-                    </div>
-                    <div class="line-vertical"></div>
-                  </div>
-                  <div class="xl-10-2 md-10-4 xs-10-8">
-                    <div class="line-vertical"></div>
-                    <div class="circle animated flipInY xsstyle">
-                      <h1>xs</h1>
-                      <h4>iPhone (Portrait)</h4>
-                      <h6>Maximum width 320 pixels</h6>
-                      <svg id="iphone-portrait" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 380 798" enable-background="new 0 0 380 798" xml:space="preserve">
-                        <path class="path1" d="M330,798H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h280c27.614,0,50,22.386,50,50v698 C380,775.614,357.614,798,330,798z"/>
-                        <path class="path2" d="M330,798H50c-27.614,0-50-22.386-50-50V50C0,22.386,22.386,0,50,0h280c27.614,0,50,22.386,50,50v698 C380,775.614,357.614,798,330,798z M190,776c19.33,0,35-15.67,35-35s-15.67-35-35-35s-35,15.67-35,35S170.67,776,190,776z M228,67.5 c0-4.694-3.806-8.5-8.5-8.5h-59c-4.694,0-8.5,3.806-8.5,8.5v1c0,4.694,3.806,8.5,8.5,8.5h59c4.694,0,8.5-3.806,8.5-8.5V67.5z M350,115H30v568h320V115z"/>
-                      </svg>
-                    </div>
-                    <div class="line-vertical"></div>
-                  </div>
-                  <div class="row">
-                    <div class="xl-10-8 md-10-4 hidden-sm hidden-xs">
-                      <div class="line-horizantal"></div>
-                    </div>
-                  </div>
-              </div>
-          </div>
-          <!-- Readme -->
-            <div class="row">
-              <div class="xl-10-2 md-10-4 xs-10-8 text-center">
-                <div class="line-vertical"></div>
-                <a href="https://github.com/flexiblegs/flexible.gs" target="_blank" class="circle readme animated flipInY">
-                  <i class="fa fa-book fa-2x"></i>
-                  <h1>Read Me</h1>
-                  <h6>on Github</h6>
-                </a>
-                <div class="line-vertical"></div>
-              </div>
+              <!-- Device Button -->
+                <div class="color-circle">
+                  <a class="xlstyle-browser-click active"><h1>xl</h1></a>
+                  <a class="lgstyle-browser-click"><h1>lg</h1></a>
+                  <a class="mdstyle-browser-click"><h1>md</h1></a>
+                  <a class="smstyle-browser-click"><h1>sm</h1></a>
+                  <a class="xsstyle-browser-click"><h1>xs</h1></a>
+                </div>
             </div>
+          </div>
         </div>
-        <!-- Example Code Snippet -->
-          <div class="example-code-bg text-center">
-            <div class="container">
-              <div class="row text-left">
-                <div class="padding-rl">
-                  <div class="row">
-                    <div class="xl-10-8">
-                      <div class="row">
-                        <div class="md-2-1 text-left">
-                          <div class="h3">Example Code Snippet</div>
-                        </div>
-                        <div class="md-2-1 text-right">
-                          <div class="h3"><a href="example.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
-                        </div>
-                      </div>
-                      <pre>&lt;div class=&quot;row gt-10-xs&quot;&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-24-6</span> <span class="lgstyle">lg-12-3</span> <span class="mdstyle">md-8-6</span> <span class="smstyle">sm-12-6</span> <span class="xsstyle">xs-1</span>&quot;&gt;01&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-24-18</span> <span class="lgstyle">lg-12-9</span> <span class="mdstyle">md-1</span> <span class="smstyle">sm-1</span> <span class="xsstyle">xs-1</span>&quot;&gt;02&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-1</span> <span class="lgstyle">lg-1</span> <span class="mdstyle">md-1</span> <span class="smstyle">sm-1</span> <span class="xsstyle">xs-1</span>&quot;&gt;03&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-10-3</span> <span class="lgstyle">lg-12-3</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-6</span> <span class="xsstyle">xs-1</span>&quot;&gt;04&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-10-7</span> <span class="lgstyle">lg-12-9</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-6</span> <span class="xsstyle">xs-1</span>&quot;&gt;05&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-5-1</span> <span class="lgstyle">lg-12-4</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-4</span> <span class="xsstyle">xs-1</span>&quot;&gt;06&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-5-1</span> <span class="lgstyle">lg-12-4</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-4</span> <span class="xsstyle">xs-1</span>&quot;&gt;07&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-5-1</span> <span class="lgstyle">lg-12-4</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-4</span> <span class="xsstyle">xs-1</span>&quot;&gt;08&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-5-1</span> <span class="lgstyle">lg-12-6</span> <span class="mdstyle">md-2-1</span> <span class="smstyle">sm-12-4</span> <span class="xsstyle">xs-1</span>&quot;&gt;09&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-5-1</span> <span class="lgstyle">lg-12-6</span> <span class="mdstyle">md-2-2</span> <span class="smstyle">sm-12-4</span> <span class="xsstyle">xs-1</span>&quot;&gt;10&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-22-11</span> <span class="lgstyle">lg-20-10</span> <span class="mdstyle">md-18-9</span> <span class="smstyle">sm-1</span> <span class="xsstyle">xs-1</span>&quot;&gt;11&lt;/div&gt;<br/>  &lt;div class=&quot;<span class="xlstyle">xl-22-11</span> <span class="lgstyle">lg-20-10</span> <span class="mdstyle">md-18-9</span> <span class="smstyle">sm-1</span> <span class="xsstyle">xs-1</span>&quot;&gt;12&lt;/div&gt;<br/>&lt;/div&gt;</pre>
-                    </div>
-                  </div>
-                  <!-- Device Button -->
-                    <div class="color-circle">
-                      <a class="xlstyle-circle active"><h1>xl</h1></a>
-                      <a class="lgstyle-circle"><h1>lg</h1></a>
-                      <a class="mdstyle-circle"><h1>md</h1></a>
-                      <a class="smstyle-circle"><h1>sm</h1></a>
-                      <a class="xsstyle-circle"><h1>xs</h1></a>
-                    </div>
-                </div>
-              </div>
-            </div>
-          </div>
+      </div>
+      <!-- Browser -->
         <div class="device-hidden">
-          <!-- Search Bar -->
-            <div class="line-vertical"></div>
-            <div class="row">
-              <div class="xl-12-6 lg-12-8 xs-12">
-                <div class="search-bar">
-                  <div class="row">
-                    <div class="md-12-1 xs-10-1">
-                      <a href="#" class="home">
-                        <i class="fa fa-home fa-2x"></i>
-                      </a>
-                    </div>
-                    <div class="md-12-10 xs-10-8">
-                      <div class="url">
-                        <input type="text" placeholder="example.html" value="http://">
-                      </div>
-                    </div>
-                    <div class="md-12-1 xs-10-1">
-                      <a href="#" class="refresh">
-                        <i class="fa fa-refresh fa-2x"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+          <div class="browser animated tada">
+            <div class="browser-tab">
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
             </div>
-            <div class="line-vertical"></div>
-            <div class="line-vertical"></div>
-          <!-- Device -->
-            <div class="macbook-big"></div>
-            <div class="ipad-landscape-big"></div>
-            <div class="ipad-portrait-big"></div>
-            <div class="iphone-landscape-big"></div>
-            <div class="iphone-portrait-big"></div>
+            <div class="browser-page example-grid-2">
+              <iframe src="../2-column-grid/example.html" class="example" frameborder="0"></iframe>
+            </div>
+          </div>
         </div>
-      </article>
 
-    <!-- Footer Wrapper -->
+  <!-- Footer Wrapper -->
 
       <!-- Disqus -->
         <div class="line-vertical"></div>
@@ -744,16 +619,14 @@
           </div>
         </footer>
 
-  </div>
-
   <!-- jQuery 1.11.1 -->
-  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="../js/jquery-1.11.1.min.js"></script>
 
   <!-- main.js -->
-  <script src="js/main.js"></script>
+  <script src="../js/main.js"></script>
 
   <!-- jquery.flexible.js -->
-  <script src="js/jquery.flexible.js"></script>
+  <script src="../js/jquery.flexible.js"></script>
 
 </body>
 </html>

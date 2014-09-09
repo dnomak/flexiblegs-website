@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Example - Flexible Grid System</title>
+  <title>Homepage - Example</title>
   <meta name="robots" content="noindex,nofollow">
 
   <!-- Google Font -->
@@ -17,131 +17,8 @@
   <!-- Flexible Grid System 2.0.1 -->
   <link rel="stylesheet" href="css/flexible.min.css">
 
-  <style>
-    html, body {
-      font-family: 'Open Sans', sans-serif;
-      font-size: 12px;
-      color: #222222;
-      background: #fff;
-      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-      margin: 0;
-    }
-    [class*="xl-"],[class*="lg-"],[class*="md-"],[class*="sm-"],[class*="xs-"] {
-      font-size: 12px;
-      line-height: 20px;
-    }
-    #adpacks {
-      padding:10px;
-      background: #3498db;
-      border-radius: 6px;
-      margin: 10px;
-      height: 120px;
-      clear:both;
-      line-height: 20px;
-      text-align: left;
-    }
-    #adpacks a {
-      color: #fff;
-      text-decoration: none;
-    }
-    #adpacks a.adpacks-poweredby {
-      display: block;
-      opacity: 0.5;
-    }
-    .adpacks-img {
-      float: left;
-      padding-right: 10px;
-    }
-    .number {
-      background: #3498db;
-      color: #fff;
-      border-radius:6px;
-      margin:10px 0;
-      padding: 10px 0;
-      text-align: center;
-      display: block;
-      line-height: 28px;
-      font-weight: 300;
-      font-size: 28px;
-      letter-spacing: -2pt;
-      font-weight: bold;
-    }
-    .number span {
-      opacity: 0.3;
-    }
-    .number.logo {
-      padding:50px 0;
-    }
-    .number.slider {
-      padding:70px 0;
-    }
-    .number.content {
-      padding:76px 0;
-    }
-    .number.sidebar {
-      padding:76px 0;
-    }
-    .number.section {
-      padding:30px 0;
-    }
-    /* lg */
-      @media (max-width: 1024px) {
-        .number,#adpacks {
-          background: #e74c3c;
-        }
-        .number.slider {
-          padding:62px 0;
-        }
-        .number.content {
-          padding:66px 0;
-        }
-        .number.sidebar {
-          padding:66px 0;
-        }
-        .number.section {
-          padding:26px 0;
-        }
-      }
-    /* md */
-      @media (max-width: 768px) {
-        .number,#adpacks {
-          background: #1abc9c;
-        }
-        .number.slider {
-          padding:76px 0;
-        }
-        .number.content {
-          padding:96px 0;
-        }
-        .number.sidebar {
-          padding:96px 0;
-        }
-      }
-    /* sm */
-      @media (max-width: 568px) {
-        .number,#adpacks {
-          background: #9b59b6;
-        }
-        .number.slider {
-          padding:62px 0;
-        }
-        .number.content {
-          padding:66px 0;
-        }
-        .number.sidebar {
-          padding:66px 0;
-        }
-        .number.section {
-          padding:26px 0;
-        }
-      }
-    /* xs */
-      @media (max-width: 320px) {
-        .number,#adpacks {
-          background: #f39c12;
-        }
-      }
-  </style>
+  <!-- flexible.iframe.css -->
+  <link rel="stylesheet" href="css/flexible.iframe.css">
 
   <!-- Google Analytics -->
   <script>
@@ -155,23 +32,23 @@
 </head>
 <body>
 
-  <!-- Example -->
+  <!-- Homepage - Example -->
     <div class="row gt-10-xs">
-      <div class="xl-24-6 lg-12-3 md-8-6 sm-12-6 xs-1"><div class="number logo"><span>Logo</span> 01</div></div>
-      <div class="xl-24-18 lg-12-9 md-1 sm-1 xs-1"><div class="number menu"><span>Menu</span> 02</div></div>
-      <div class="xl-1 lg-1 md-1 sm-1 xs-1"><div class="number slider"><span>Slider</span> 03</div></div>
-      <div class="xl-10-3 lg-12-3 md-2-1 sm-12-6 xs-1 "><div class="number sidebar"><span>Sidebar</span> 04</div></div>
-      <div class="xl-10-7 lg-12-9 md-2-1 sm-12-6 xs-1 "><div class="number content"><span>Content</span> 05</div></div>
-      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="number section"><span>Section</span> 06</div></div>
-      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="number section"><span>Section</span> 07</div></div>
-      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="number section"><span>Section</span> 08</div></div>
-      <div class="xl-5-1 lg-12-6 md-2-1 sm-12-4 xs-1"><div class="number section"><span>Section</span> 09</div></div>
-      <div class="xl-5-1 lg-12-6 md-2-2 sm-12-4 xs-1"><div class="number section"><span>Section</span> 10</div></div>
-      <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="number footer"><span>Footer</span> 11</div></div>
-      <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="number footer"><span>Footer</span> 12</div></div>
+      <div class="xl-24-6 lg-12-3 md-8-6 sm-12-6 xs-1"><div class="example-home logo"><span>Logo</span> 01</div></div>
+      <div class="xl-24-18 lg-12-9 md-1 sm-1 xs-1"><div class="example-home menu"><span>Menu</span> 02</div></div>
+      <div class="xl-1 lg-1 md-1 sm-1 xs-1"><div class="example-home slider"><span>Slider</span> 03</div></div>
+      <div class="xl-10-3 lg-12-3 md-2-1 sm-12-6 xs-1 "><div class="example-home sidebar"><span>Sidebar</span> 04</div></div>
+      <div class="xl-10-7 lg-12-9 md-2-1 sm-12-6 xs-1 "><div class="example-home content"><span>Content</span> 05</div></div>
+      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="example-home section"><span>Section</span> 06</div></div>
+      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="example-home section"><span>Section</span> 07</div></div>
+      <div class="xl-5-1 lg-12-4 md-2-1 sm-12-4 xs-1"><div class="example-home section"><span>Section</span> 08</div></div>
+      <div class="xl-5-1 lg-12-6 md-2-1 sm-12-4 xs-1"><div class="example-home section"><span>Section</span> 09</div></div>
+      <div class="xl-5-1 lg-12-6 md-2-2 sm-12-4 xs-1"><div class="example-home section"><span>Section</span> 10</div></div>
+      <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="example-home footer"><span>Footer</span> 11</div></div>
+      <div class="xl-22-11 lg-20-10 md-18-9 sm-1 xs-1"><div class="example-home footer"><span>Footer</span> 12</div></div>
     </div>
 
-   <!-- Adpacks -->
+  <!-- Adpacks -->
     <div class="row">
       <div class="xs-1">
         <script async type="text/javascript" src="//cdn.adpacks.com/adpacks.js?zoneid=1386&serve=C6SI42Y&placement=flexiblegs" id="_adpacks_js"></script>
