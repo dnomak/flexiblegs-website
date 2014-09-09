@@ -265,7 +265,7 @@ $( ".close" ).click(function() {
   $("#menu").css("display", "none");
 });
 
-$(".columns a[href='/24-column-grid']").hover(
+$(".columns a[href='/24-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>24 Column</b> Grid")
   },
@@ -273,7 +273,7 @@ $(".columns a[href='/24-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/23-column-grid']").hover(
+$(".columns a[href='/23-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>23 Column</b> Grid")
   },
@@ -281,7 +281,7 @@ $(".columns a[href='/23-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/22-column-grid']").hover(
+$(".columns a[href='/22-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>22 Column</b> Grid")
   },
@@ -289,7 +289,7 @@ $(".columns a[href='/22-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/21-column-grid']").hover(
+$(".columns a[href='/21-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>21 Column</b> Grid")
   },
@@ -297,7 +297,7 @@ $(".columns a[href='/21-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/20-column-grid']").hover(
+$(".columns a[href='/20-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>20 Column</b> Grid")
   },
@@ -305,7 +305,7 @@ $(".columns a[href='/20-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/19-column-grid']").hover(
+$(".columns a[href='/19-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>19 Column</b> Grid")
   },
@@ -313,7 +313,7 @@ $(".columns a[href='/19-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/18-column-grid']").hover(
+$(".columns a[href='/18-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>18 Column</b> Grid")
   },
@@ -321,7 +321,7 @@ $(".columns a[href='/18-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/17-column-grid']").hover(
+$(".columns a[href='/17-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>17 Column</b> Grid")
   },
@@ -329,7 +329,7 @@ $(".columns a[href='/17-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/16-column-grid']").hover(
+$(".columns a[href='/16-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>16 Column</b> Grid")
   },
@@ -337,7 +337,7 @@ $(".columns a[href='/16-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/15-column-grid']").hover(
+$(".columns a[href='/15-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>15 Column</b> Grid")
   },
@@ -345,7 +345,7 @@ $(".columns a[href='/15-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/14-column-grid']").hover(
+$(".columns a[href='/14-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>14 Column</b> Grid")
   },
@@ -353,7 +353,7 @@ $(".columns a[href='/14-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/13-column-grid']").hover(
+$(".columns a[href='/13-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>13 Column</b> Grid")
   },
@@ -361,7 +361,7 @@ $(".columns a[href='/13-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/12-column-grid']").hover(
+$(".columns a[href='/12-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>12 Column</b> Grid")
   },
@@ -369,7 +369,7 @@ $(".columns a[href='/12-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/11-column-grid']").hover(
+$(".columns a[href='/11-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>11 Column</b> Grid")
   },
@@ -377,7 +377,7 @@ $(".columns a[href='/11-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/10-column-grid']").hover(
+$(".columns a[href='/10-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>10 Column</b> Grid")
   },
@@ -385,7 +385,7 @@ $(".columns a[href='/10-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/9-column-grid']").hover(
+$(".columns a[href='/9-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>9 Column</b> Grid")
   },
@@ -393,7 +393,7 @@ $(".columns a[href='/9-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/8-column-grid']").hover(
+$(".columns a[href='/8-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>8 Column</b> Grid")
   },
@@ -401,7 +401,7 @@ $(".columns a[href='/8-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/7-column-grid']").hover(
+$(".columns a[href='/7-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>7 Column</b> Grid")
   },
@@ -409,7 +409,7 @@ $(".columns a[href='/7-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/6-column-grid']").hover(
+$(".columns a[href='/6-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>6 Column</b> Grid")
   },
@@ -417,7 +417,7 @@ $(".columns a[href='/6-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/5-column-grid']").hover(
+$(".columns a[href='/5-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>5 Column</b> Grid")
   },
@@ -425,7 +425,7 @@ $(".columns a[href='/5-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/4-column-grid']").hover(
+$(".columns a[href='/4-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>4 Column</b> Grid")
   },
@@ -433,7 +433,7 @@ $(".columns a[href='/4-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/3-column-grid']").hover(
+$(".columns a[href='/3-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>3 Column</b> Grid")
   },
@@ -441,7 +441,7 @@ $(".columns a[href='/3-column-grid']").hover(
     $(".hover-change").html("<b>All Columns</b>")
   }
 );
-$(".columns a[href='/2-column-grid']").hover(
+$(".columns a[href='/2-column-grid/']").hover(
   function(e){
     $(".hover-change").html("<b>2 Column</b> Grid")
   },
