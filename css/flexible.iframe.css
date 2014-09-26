@@ -91,7 +91,7 @@
     font-size: 12px;
     height: 48px;
     /*text-indent: -9999px;*/
-    overflow-x: scroll;
+    overflow: hidden;
   }
   .example-grid span {
     opacity: 0.3;
