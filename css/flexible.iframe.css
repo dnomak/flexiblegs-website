@@ -96,7 +96,8 @@
     font-size: 16px;
   }
   .example-grid span {
-    opacity: 0.3;
+    /*opacity: 0.3;*/
+    font-weight: 300;
   }
 
 /* Responsive */

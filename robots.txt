@@ -1,5 +1,9 @@
 User-agent: *
 Disallow: /example.html
+Disallow: /grid-gutter/index.html
+Disallow: /grid-gutter/example-1.html
+Disallow: /grid-gutter/example-2.html
+Disallow: /grid-gutter/example-3.html
 Disallow: /2-column-grid/example.html
 Disallow: /3-column-grid/example.html
 Disallow: /4-column-grid/example.html

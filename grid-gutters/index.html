@@ -1,0 +1,894 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Grid Gutters - flexible.gs</title>
+  <meta name="robots" content="noindex,nofollow">
+  <!-- <meta name="description" content="grid gutters example code snippet view example page." />
+  <meta name="keywords" content="grid gutters, flexible, grid system, responsive, css framework" />
+  <meta name="robots" content="All" />
+  <link rel="canonical" href="http://flexible.gs" /> -->
+
+  <!-- Normalize 3.0.1 -->
+  <link rel="stylesheet" href="../css/normalize.css">
+
+  <!-- Flexible Grid System 2.1.0 -->
+  <link href="../css/flexible.min.css" rel="stylesheet"> <!-- flexible.gs is compatible with guideguide (http://guideguide.me) -->
+
+  <!-- Font Awesome 4.1.0 -->
+  <link rel="stylesheet" href="../css/font-awesome.min.css"> <!-- and ../fonts folder -->
+
+  <!-- Animate.css 3.2.0 -->
+  <link href="../css/animate.min.css" rel="stylesheet">
+
+  <!-- Flat UI Colors (http://flatuicolors.com) -->
+
+  <!-- Google Font -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+  <!-- flexible.main.css -->
+  <link href="../css/flexible.main.css" rel="stylesheet">
+
+  <!-- Google Analytics -->
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-25094721-4', 'auto');
+    ga('send', 'pageview');
+  </script>
+</head>
+<body>
+
+  <!-- Header Wrapper -->
+
+      <!-- Menu -->
+        <div id="menu">
+          <div class="container">
+            <div class="row animated fadeInDown">
+              <div class="xl-5-3 lg-10-8 xs-1">
+                  <div class="row gutter-10-xs gutter-xs left-md">
+                      <div class="md-3-1 link-hidden">
+                          <a href="http://eepurl.com/3XD4L" target="_blank" class="h6"><i class="fa fa-bullhorn fa-lg"></i> flexible.gs <b>Newsletter</b></a>
+                      </div>
+                      <div class="md-3-1 text-center">
+                          <div class="h2 hover-change"><b>All Columns</b></div>
+                      </div>
+                  </div>
+                  <a href="#" class="close"><i class="fa fa-times fa-2x"></i></a>
+              </div>
+            </div>
+            <div class="row animated flipInY">
+                <div class="xl-5-3 lg-10-8 xs-1">
+                  <div class="columns">
+                    <a href="/24-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/23-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/22-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/21-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/20-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/19-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/18-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/17-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/16-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/15-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/14-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/13-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/12-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/11-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/10-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/9-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/8-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/7-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/6-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/5-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/4-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/3-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <a href="/2-column-grid/" class="row gutter-1-xs right-xs">
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                      <div class="xs-24-1"><div class="column-link"></div></div>
+                    </a>
+                    <div class="row total">
+                      <div class="xs-1">
+                        <i class="fa fa-plus fa-2x"></i>
+                        <div class="column-link active"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="row gutter-5-xs gutter-xs animated fadeInUp">
+              <div class="row">
+                <div class="xl-5-3 lg-10-8 xs-1">
+                  <h1>flexible.gs</h1>
+                  <h2>Flexible Grid System</h2>
+                </div>
+              </div>
+              <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+                <a href="/css/flexible.min.css" download class="btn btn-white">Download <span>2.1.0</span></a>
+              </div>
+              <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+                <a href="https://github.com/flexiblegs/flexible.gs" target="_blank" class="btn btn-white"><span>View on Github</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Header -->
+        <header id="header">
+          <div class="container">
+            <div class="row gutter-5-xs gutter-xs animated fadeInDown">
+              <div class="row">
+                <div class="xl-5-3 lg-10-8 xs-1">
+                  <h1><a href="/" title="Grid System">flexible.gs</a></h1>
+                  <h2>Flexible Grid System</h2>
+                  <a href="#" title="Grid System" class="navicon"><i class="fa fa-bars fa-2x"></i></a>
+                </div>
+              </div>
+              <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+                <a href="/css/flexible.min.css" download class="btn btn-white">Download <span>2.1.0</span><div class="new-version">new</div></a>
+              </div>
+              <div class="xl-12-2 lg-12-3 md-12-4 sm-10-4 xs-2-1">
+                <a href="https://github.com/flexiblegs/flexible.gs" target="_blank" class="btn btn-white"><span>View on Github</span></a>
+              </div>
+            </div>
+            <div class="row animated fadeInUp">
+              <div class="xl-5-3 lg-10-8 xs-1 text-left">
+                <div class="padding-rl">
+                  <h3 class="text-left">Install Flexible</h3>
+                  <pre class="black-bg">&lt;head&gt;<br/>  &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;<br/>  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;<span>&lt;link rel=&quot;stylesheet&quot; href=&quot;css/flexible.min.css&quot;&gt;</span><br/>  &lt;link rel=&quot;stylesheet&quot; href=&quot;css/flexible.main.css&quot;&gt;<br/>&lt;/head&gt;</pre>
+                </div>
+              </div>
+              <div class="row">
+                <div class="xs-1">
+                  <div class="h4 text-center">
+                    <a href="https://github.com/flexiblegs/startup-folder" class="startup-folder" target="_blank"><i class="fa fa-folder-open"></i> <b>Startup Folder</b> <span>View on Github</span><!-- <div class="new-sf">new</div> --></a>
+                  </div>
+                </div>
+              </div>
+              <div class="xl-12-4 lg-12-6 md-12-8 xs-1">
+                <script async type="text/javascript" src="//cdn.adpacks.com/adpacks.js?zoneid=1386&serve=C6SI42Y&placement=flexiblegs" id="_adpacks_js"></script>
+              </div>
+            </div>
+          </div>
+        </header>
+
+      <!-- Social Buttons -->
+        <div class="social-buttons-bg">
+          <div class="row animated fadeIn">
+            <span class="g-plus"><script src="https://apis.google.com/js/platform.js" async defer></script><div class="g-plusone" data-size="medium" data-href="http://flexible.gs"></div></span>
+            <span><iframe src="http://ghbtns.com/github-btn.html?user=flexiblegs&repo=flexible.gs&type=watch&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="97" height="20"></iframe></span>
+            <span><iframe src="http://ghbtns.com/github-btn.html?user=flexiblegs&repo=flexible.gs&type=fork&count=true" allowtransparency="true" frameborder="0" scrolling="0" width="93" height="20"></iframe></span>
+            <span><a href="https://twitter.com/dnomak" data-width="206px" class="twitter-follow-button" data-dnt="true"></a></span>
+            <span><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://flexible.gs" data-text="Flexible Grid System" data-via="dnomak"></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span>
+          </div>
+        </div>
+
+  <!-- Main -->
+
+    <!-- Example Code Snippet 1 -->
+      <div class="line-vertical"></div>
+      <div class="line-vertical"></div>
+      <div class="example-code-bg text-center">
+        <div class="container">
+          <div class="row text-left">
+            <div class="padding-rl">
+              <div class="row">
+                <div class="xl-10-8">
+                  <div class="row">
+                    <div class="xs-1">
+                      <div class="h2"><b>None</b> Grid Gutter</div>
+                    </div>
+                    <div class="md-2-1 text-left">
+                      <div class="h3">Example Code Snippet</div>
+                    </div>
+                    <div class="md-2-1 text-right">
+                      <div class="h3"><a href="example-1.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                    </div>
+                  </div>
+                  <pre>&lt;div class=&quot;row&quot;&gt;<br/>&nbsp;&nbsp;&lt;div class=&quot;xs-2-1&quot;&gt;00 Pixel&lt;/div&gt;<br/>&nbsp;&nbsp;&lt;div class=&quot;xs-2-1&quot;&gt;00 Pixel&lt;/div&gt;<br/>&lt;/div&gt;</pre>
+                </div>
+              </div>
+              <!-- Device Button -->
+                <div class="color-circle">
+                  <a class="xlstyle-browser-click active"><h1>xl</h1></a>
+                  <a class="lgstyle-browser-click"><h1>lg</h1></a>
+                  <a class="mdstyle-browser-click"><h1>md</h1></a>
+                  <a class="smstyle-browser-click"><h1>sm</h1></a>
+                  <a class="xsstyle-browser-click"><h1>xs</h1></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Browser -->
+        <div class="device-hidden">
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+          <div class="browser animated tada">
+            <div class="browser-tab">
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+            </div>
+            <div class="browser-page example-1-grid-gutters">
+              <iframe src="../grid-gutters/example-1.html" class="example" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+
+    <!-- Example Code Snippet 2 -->
+      <div class="line-vertical"></div>
+      <div class="line-vertical"></div>
+      <div class="example-code-bg text-center">
+        <div class="container">
+          <div class="row text-left">
+            <div class="padding-rl">
+              <div class="row">
+                <div class="xl-10-8">
+                  <div class="row">
+                    <div class="xs-1">
+                      <div class="h2"><b>In</b> Grid Gutter</div>
+                    </div>
+                    <div class="md-2-1 text-left">
+                      <div class="h3">Example Code Snippet</div>
+                    </div>
+                    <div class="md-2-1 text-right">
+                      <div class="h3"><a href="example-2.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                    </div>
+                  </div>
+<pre>&lt;div class=&quot;row gutter-20-xl gutter-20-lg gutter-20-md gutter-20-sm gutter-20-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;20 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;20 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-19-xl gutter-19-lg gutter-19-md gutter-19-sm gutter-19-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;19 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;19 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-18-xl gutter-18-lg gutter-18-md gutter-18-sm gutter-18-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;18 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;18 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-17-xl gutter-17-lg gutter-17-md gutter-17-sm gutter-17-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;17 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;17 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-16-xl gutter-16-lg gutter-16-md gutter-16-sm gutter-16-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;16 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;16 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-15-xl gutter-15-lg gutter-15-md gutter-15-sm gutter-15-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;15 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;15 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-14-xl gutter-14-lg gutter-14-md gutter-14-sm gutter-14-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;14 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;14 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-13-xl gutter-13-lg gutter-13-md gutter-13-sm gutter-13-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;13 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;13 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-12-xl gutter-12-lg gutter-12-md gutter-12-sm gutter-12-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;12 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;12 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-11-xl gutter-11-lg gutter-11-md gutter-11-sm gutter-11-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;11 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;11 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-10-xl gutter-10-lg gutter-10-md gutter-10-sm gutter-10-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;10 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;10 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-9-xl gutter-9-lg gutter-9-md gutter-9-sm gutter-9-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;09 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;09 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-8-xl gutter-8-lg gutter-8-md gutter-8-sm gutter-8-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;08 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;08 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-7-xl gutter-7-lg gutter-7-md gutter-7-sm gutter-7-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;07 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;07 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-6-xl gutter-6-lg gutter-6-md gutter-6-sm gutter-6-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;06 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;06 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-5-xl gutter-5-lg gutter-5-md gutter-5-sm gutter-5-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;05 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;05 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-4-xl gutter-4-lg gutter-4-md gutter-4-sm gutter-4-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;04 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;04 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-3-xl gutter-3-lg gutter-3-md gutter-3-sm gutter-3-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;03 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;03 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-2-xl gutter-2-lg gutter-2-md gutter-2-sm gutter-2-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;02 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;02 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-1-xl gutter-1-lg gutter-1-md gutter-1-sm gutter-1-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;01 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;01 Pixel&lt;/div&gt;
+&lt;/div</pre>
+                </div>
+              </div>
+              <!-- Device Button -->
+                <div class="color-circle">
+                  <a class="xlstyle-browser-click active"><h1>xl</h1></a>
+                  <a class="lgstyle-browser-click"><h1>lg</h1></a>
+                  <a class="mdstyle-browser-click"><h1>md</h1></a>
+                  <a class="smstyle-browser-click"><h1>sm</h1></a>
+                  <a class="xsstyle-browser-click"><h1>xs</h1></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Browser -->
+        <div class="device-hidden">
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+          <div class="browser animated tada">
+            <div class="browser-tab">
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+            </div>
+            <div class="browser-page example-2-grid-gutters">
+              <iframe src="../grid-gutters/example-2.html" class="example" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+
+    <!-- Example Code Snippet 3 -->
+      <div class="line-vertical"></div>
+      <div class="line-vertical"></div>
+      <div class="example-code-bg text-center">
+        <div class="container">
+          <div class="row text-left">
+            <div class="padding-rl">
+              <div class="row">
+                <div class="xl-10-8">
+                  <div class="row">
+                    <div class="xs-1">
+                      <div class="h2"><b>Out</b> Grid Gutter</div>
+                    </div>
+                    <div class="md-2-1 text-left">
+                      <div class="h3">Example Code Snippet</div>
+                    </div>
+                    <div class="md-2-1 text-right">
+                      <div class="h3"><a href="example-3.html" class="h5" target="_blank"><i class="fa fa-eye"></i> View example page</a></div>
+                    </div>
+                  </div>
+<pre>&lt;div class=&quot;row gutter-20-xl gutter-xl gutter-20-lg gutter-lg gutter-20-md gutter-md gutter-20-sm gutter-sm gutter-20-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;20 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;20 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-19-xl gutter-xl gutter-19-lg gutter-lg gutter-19-md gutter-md gutter-19-sm gutter-sm gutter-19-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;19 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;19 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-18-xl gutter-xl gutter-18-lg gutter-lg gutter-18-md gutter-md gutter-18-sm gutter-sm gutter-18-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;18 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;18 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-17-xl gutter-xl gutter-17-lg gutter-lg gutter-17-md gutter-md gutter-17-sm gutter-sm gutter-17-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;17 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;17 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-16-xl gutter-xl gutter-16-lg gutter-lg gutter-16-md gutter-md gutter-16-sm gutter-sm gutter-16-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;16 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;16 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-15-xl gutter-xl gutter-15-lg gutter-lg gutter-15-md gutter-md gutter-15-sm gutter-sm gutter-15-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;15 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;15 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-14-xl gutter-xl gutter-14-lg gutter-lg gutter-14-md gutter-md gutter-14-sm gutter-sm gutter-14-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;14 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;14 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-13-xl gutter-xl gutter-13-lg gutter-lg gutter-13-md gutter-md gutter-13-sm gutter-sm gutter-13-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;13 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;13 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-12-xl gutter-xl gutter-12-lg gutter-lg gutter-12-md gutter-md gutter-12-sm gutter-sm gutter-12-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;12 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;12 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-11-xl gutter-xl gutter-11-lg gutter-lg gutter-11-md gutter-md gutter-11-sm gutter-sm gutter-11-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;11 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;11 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-10-xl gutter-xl gutter-10-lg gutter-lg gutter-10-md gutter-md gutter-10-sm gutter-sm gutter-10-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;10 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;10 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-9-xl gutter-xl gutter-9-lg gutter-lg gutter-9-md gutter-md gutter-9-sm gutter-sm gutter-9-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;09 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;09 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-8-xl gutter-xl gutter-8-lg gutter-lg gutter-8-md gutter-md gutter-8-sm gutter-sm gutter-8-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;08 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;08 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-7-xl gutter-xl gutter-7-lg gutter-lg gutter-7-md gutter-md gutter-7-sm gutter-sm gutter-7-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;07 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;07 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-6-xl gutter-xl gutter-6-lg gutter-lg gutter-6-md gutter-md gutter-6-sm gutter-sm gutter-6-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;06 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;06 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-5-xl gutter-xl gutter-5-lg gutter-lg gutter-5-md gutter-md gutter-5-sm gutter-sm gutter-5-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;05 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;05 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-4-xl gutter-xl gutter-4-lg gutter-lg gutter-4-md gutter-md gutter-4-sm gutter-sm gutter-4-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;04 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;04 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-3-xl gutter-xl gutter-3-lg gutter-lg gutter-3-md gutter-md gutter-3-sm gutter-sm gutter-3-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;03 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;03 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-2-xl gutter-xl gutter-2-lg gutter-lg gutter-2-md gutter-md gutter-2-sm gutter-sm gutter-2-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;02 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;02 Pixel&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;row gutter-1-xl gutter-xl gutter-1-lg gutter-lg gutter-1-md gutter-md gutter-1-sm gutter-sm gutter-1-xs gutter-xs&quot;&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;01 Pixel&lt;/div&gt;
+  &lt;div class=&quot;xs-2-1&quot;&gt;01 Pixel&lt;/div&gt;
+&lt;/div&gt;</pre>
+                </div>
+              </div>
+              <!-- Device Button -->
+                <div class="color-circle">
+                  <a class="xlstyle-browser-click active"><h1>xl</h1></a>
+                  <a class="lgstyle-browser-click"><h1>lg</h1></a>
+                  <a class="mdstyle-browser-click"><h1>md</h1></a>
+                  <a class="smstyle-browser-click"><h1>sm</h1></a>
+                  <a class="xsstyle-browser-click"><h1>xs</h1></a>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Browser -->
+        <div class="device-hidden">
+          <div class="line-vertical"></div>
+          <div class="line-vertical"></div>
+          <div class="browser animated tada">
+            <div class="browser-tab">
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+              <div class="browser-circle"></div>
+            </div>
+            <div class="browser-page example-3-grid-gutters">
+              <iframe src="../grid-gutters/example-3.html" class="example" frameborder="0"></iframe>
+            </div>
+          </div>
+        </div>
+
+  <!-- Footer Wrapper -->
+
+      <!-- Disqus -->
+        <div class="line-vertical"></div>
+        <div class="line-vertical"></div>
+        <div class="disqus">
+          <div class="container">
+            <div class="row text-left">
+              <script type="text/javascript">
+                  var disqus_shortname = 'flexiblegs';
+                  (function() {
+                      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                  })();
+              </script>
+              <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+              <!-- <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a> -->
+              <div id="disqus_thread"></div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Donate -->
+        <div id="donate">
+          <div class="container">
+            <div class="line-vertical"></div>
+            <div class="row">
+              <div class="xl-12-6 lg-12-8 md-12-10 text-center">
+                <div class="line-vertical"></div>
+                <div class="circle donate animated flipInY">
+                  <div class="h6">Donate with</div>
+                  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                  <input type="hidden" name="cmd" value="_s-xclick">
+                  <input type="hidden" name="hosted_button_id" value="NHEUHUB8863NS">
+                  <input type="image" src="http://flexible.gs/svg/ppcom.svg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                  <img alt="" border="0" src="https://www.paypalobjects.com/tr_TR/i/scr/pixel.gif" width="1" height="1" alt="PayPal">
+                  </form>
+                  <h4>I need money, I will marry <i class="fa fa-smile-o fa-lg"></i></h4>
+                  <hr>
+                  <h4>Thank you for donation <a href="https://twitter.com/justinavery" target="_blank">@justinavery</a> and Karin De Uriarte Langholz</h4>
+                  <hr>
+                  <h4>Thank you for dribbble invitation <a href="https://dribbble.com/mustafacetin" target="_blank">@mustafacetin</a></h4>
+                  <h3><a href="https://dribbble.com/dnomak" class="dribble-color" target="_blank"><i class="fa fa-dribbble fa-2x"></i></i></a></h3>
+                </div>
+                <div class="line-vertical"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      <!-- Coming Soon -->
+        <div class="row">
+          <div class="xl-12-4 lg-12-5 md-10-6 sm-10-8">
+            <div class="line-vertical"></div>
+              <a href="https://twitter.com/dnomak" target="_blank" class="circle comingsoon animated flipInY h3 text-center">
+                <i class="fa fa-paint-brush fa-lg"></i><br><b>Flexible Framework</b><br><span>Coming Soon</span>
+                <h6>Follow me</h6>
+              </a>
+            <div class="line-vertical"></div>
+          </div>
+        </div>
+        <div class="line-vertical"></div>
+
+      <!-- Footer -->
+        <footer id="footer">
+          <div class="row">
+            <div class="social-media">
+              <a href="https://dribbble.com/dnomak" target="_blank"><i class="fa fa-dribbble fa-2x"></i></i></a>
+              <a href="https://github.com/dnomak" target="_blank"><i class="fa fa-github-square fa-2x"></i></a>
+              <a href="https://twitter.com/dnomak" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+              <a href="http://instagram.com/dnomak" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+              <a href="http://google.com/+dogukanguvennomak" rel="author" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></a>
+            </div>
+            <div class="h1">Doğukan Güven Nomak</div>
+            <div class="h4">Developer & Designer <a href="http://www.egebilgi.com.tr" title="web tasarım" target="_blank">@egebilgi</a></div>
+            <a href="http://dnomak.com" class="link" target="_blank"><i class="fa fa-link fa-2x"></i></a>
+          </div>
+        </footer>
+
+  <!-- jQuery 1.11.1 -->
+  <script src="../js/jquery-1.11.1.min.js"></script>
+
+  <!-- main.js -->
+  <script src="../js/main.js"></script>
+
+  <!-- jquery.flexible.js -->
+  <script src="../js/jquery.flexible.js"></script>
+
+</body>
+</html>
