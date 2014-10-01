@@ -154,9 +154,9 @@
   }
   .social-buttons-bg span{
     display: inline-block;
-    padding: 5px 0;
+    /*padding: 5px 0;*/
   }
-  .g-plus{
+  span.g-plus{
     width: 65px!important;
     margin-right: 12px;
     overflow: hidden;
