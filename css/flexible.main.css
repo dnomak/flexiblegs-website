@@ -902,19 +902,19 @@
     margin: 10px;
     padding: 10px!important;
   }
-  .classnames .xlstyle {
+  .classnames .xlstyle, .grid-gutter-example-3 .xlstyle {
     width: 110px;
   }
-  .classnames .lgstyle {
+  .classnames .lgstyle, .grid-gutter-example-3 .lgstyle {
     width: 110px;
   }
-  .classnames .mdstyle {
+  .classnames .mdstyle, .grid-gutter-example-3 .mdstyle {
     width: 110px;
   }
-  .classnames .smstyle {
+  .classnames .smstyle, .grid-gutter-example-3 .smstyle {
     width: 110px;
   }
-  .classnames .xsstyle {
+  .classnames .xsstyle, .grid-gutter-example-3 .xsstyle {
     width: 110px;
   }
   pre.black-bg {
