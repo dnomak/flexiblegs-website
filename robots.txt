@@ -1,6 +1,5 @@
 User-agent: *
 Disallow: /example.html
-Disallow: /grid-gutter/index.html
 Disallow: /grid-gutter/example-1.html
 Disallow: /grid-gutter/example-2.html
 Disallow: /grid-gutter/example-3.html
