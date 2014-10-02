@@ -73,9 +73,9 @@
   #menu .h2{
     margin: 10px 0 0px 0;
   }
-  #menu a.h6{color: #fff; margin-top: 15px;}
-  #menu a.h6:hover{opacity: 1;}
-  #menu a.h6 i{margin-right: 2px;}
+  #menu a.h3{color: #fff; margin-top: 10px;}
+  #menu a.h3:hover{opacity: 1;}
+  #menu a.h3 i{margin-right: 2px;}
   #menu .btn-white span {
     color:#fff;
     opacity: 0.5;
@@ -156,10 +156,11 @@
     display: inline-block;
     /*padding: 5px 0;*/
   }
-  span.g-plus{
+  .social-buttons-bg span.g-plus{
     width: 65px!important;
     margin-right: 12px;
     overflow: hidden;
+    position: relative;
   }
   #main{
     margin: 0;
@@ -985,7 +986,10 @@
       }
       #menu,.new-version,a.comingsoon,a.readme{background: #9b59b6;}
       a.close{color: #9b59b6;}
-      .link-hidden{display: none;}
+      /*.link-hidden{display: none;}*/
+      #menu{
+        min-height: 645px;
+      }
     }
 
   /* xs */
