@@ -1,4 +1,4 @@
-/*! flexible.main.css */
+/*! flexible.style.css */
 
 /* Wrapper */
 
@@ -154,15 +154,8 @@
   }
   .social-buttons-bg span{
     display: inline-block;
-    /*padding: 5px 0;*/
-  }
-  .social-buttons-bg span.g-plus{
-    width: 65px!important;
-    margin-right: 12px;
-    overflow: hidden;
-    position: relative;
-  }
-  #main{
+    padding: 5px 0;
+  }  #main{
     margin: 0;
   }
   .padding-rl {
@@ -988,7 +981,7 @@
       a.close{color: #9b59b6;}
       /*.link-hidden{display: none;}*/
       #menu{
-        min-height: 645px;
+        min-height: 665px;
       }
     }
 
