@@ -117,13 +117,46 @@
     top:-40px;
     font-size:3em;
   }
+  a.flexiblegs-rails{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background: #222;
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding-top: 6px;
+    cursor: pointer;
+    color: #9e9e9e;
+    padding: 7px 20px;
+    display: block;
+  }
+  a.flexiblegs-rails:hover {
+    color: #fff;
+  }
+  a.flexiblegs-rails h4 {
+    margin: 0;
+    padding: 0;
+  }
+  .new-gem {
+    position: absolute;
+    right: -16px;
+    top: 9px;
+    display: inline-block;
+    color: #fff;
+    background: #3498db;
+    font-size: 10px;
+    line-height: 14px;
+    padding: 0 5px 2px 5px;
+    border-radius: 20px;
+  }
+
   a.navicon, a.close{
     position: absolute;
     top: 5px;
     right: 10px;
     background: #333333;
     width: 38px;
-    height: 38px;
+    height: 36px;
     border-radius: 6px;
     padding-top: 6px;
     cursor: pointer;
@@ -953,7 +986,7 @@
 
     @media (max-width: 1024px) {
       .color-circle,.device-hidden{display: none;}
-      #menu,.new-version,a.comingsoon,a.readme{background: #e74c3c;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #e74c3c;}
       a.close{color: #e74c3c;}
     }
 
@@ -964,7 +997,7 @@
       .example-code-bg .md-2-1.text-right {
         text-align: center;
       }
-      #menu,.new-version,a.comingsoon,a.readme{background: #1abc9c;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #1abc9c;}
       a.close{color: #1abc9c;}
     }
 
@@ -977,7 +1010,7 @@
       .social-buttons-bg {
         padding: 10px 0 10px 0;
       }
-      #menu,.new-version,a.comingsoon,a.readme{background: #9b59b6;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #9b59b6;}
       a.close{color: #9b59b6;}
       /*.link-hidden{display: none;}*/
       #menu{
@@ -991,6 +1024,11 @@
       .btn {
         padding: 0px 20px;
       }
-      #menu,.new-version,a.comingsoon,a.readme{background: #f39c12;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #f39c12;}
       a.close{color: #f39c12;}
+      a.flexiblegs-rails{
+        position: relative;
+        width: 165px;
+        margin-bottom: 20px;
+      }
     }
