@@ -859,7 +859,7 @@
     border-bottom: 1px solid #e8e8e8;
   }
   .homepage.disqus{
-    min-height: 2643px;
+    /*min-height: 2643px;*/
   }
   .disqus i {
     color: #a1a1a1;
