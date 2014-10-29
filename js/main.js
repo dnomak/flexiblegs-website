@@ -82,7 +82,7 @@ var smbrowserclick = function() {
   $('.smstyle-browser-click').addClass('active');
   $('.xsstyle-browser-click').removeClass('active');
   $('.browser').removeClass('animated tada');
-  $('.browser').css( "max-width", "570px" );
+  $('.browser').css( "max-width", "669px" );
 };
 $( ".smstyle-browser-click" ).click(function() {
   smbrowserclick()
@@ -97,7 +97,7 @@ var xsbrowserclick = function() {
   $('.smstyle-browser-click').removeClass('active');
   $('.xsstyle-browser-click').addClass('active');
   $('.browser').removeClass('animated tada');
-  $('.browser').css( "max-width", "322px" );
+  $('.browser').css( "max-width", "416px" );
 };
 $( ".xsstyle-browser-click" ).click(function() {
   xsbrowserclick()

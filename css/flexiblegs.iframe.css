@@ -10,7 +10,7 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     margin: 0;
   }
-  [class*="xl-"],[class*="lg-"],[class*="md-"],[class*="sm-"],[class*="xs-"] {
+  .wrap > * {
     font-size: 12px;
     line-height: 20px;
   }
@@ -154,7 +154,7 @@
 
   /* sm */
 
-    @media (max-width: 568px) {
+    @media (max-width: 667px) {
       .example-grid{
         background: rgba(155, 89, 182, 1);
       }
@@ -180,7 +180,7 @@
 
   /* xs */
 
-    @media (max-width: 320px) {
+    @media (max-width: 414px) {
       .example-grid{
         background: rgba(243, 156, 18, 1);
       }
