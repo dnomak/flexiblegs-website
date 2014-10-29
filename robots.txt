@@ -1,5 +1,9 @@
 User-agent: *
 Disallow: /example.html
+Disallow: /grid-tools/example-1.html
+Disallow: /grid-tools/example-2.html
+Disallow: /grid-tools/example-3.html
+Disallow: /grid-tools/example-4.html
 Disallow: /grid-gutter/example-1.html
 Disallow: /grid-gutter/example-2.html
 Disallow: /grid-gutter/example-3.html

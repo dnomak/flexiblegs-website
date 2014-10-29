@@ -75,10 +75,11 @@
     padding:30px 0;
   }
 
-  .wrap {
+  .container {
     margin: 20px 10px;
     background: rgba(52, 152, 219, 0.3);
     border-radius: 6px;
+    min-height: 48px;
     overflow: hidden;
   }
   .example-grid {
@@ -88,12 +89,11 @@
     text-align: center;
     display: block;
     line-height: 28px;
-    font-size: 12px;
     height: 48px;
     /*text-indent: -9999px;*/
     overflow: hidden;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 14px;
   }
   .example-grid span {
     /*opacity: 0.3;*/
@@ -109,7 +109,7 @@
         /*text-indent: -999999px;*/
         background: rgba(231, 76, 60, 1);
       }
-      .wrap{
+      .container{
         background: rgba(231, 76, 60, 0.3);
       }
       .example-home,#adpacks {
@@ -135,7 +135,7 @@
       .example-grid{
         background: rgba(26, 188, 156, 1);
       }
-      .wrap{
+      .container{
         background: rgba(26, 188, 156, 0.3);
       }
       .example-home,#adpacks {
@@ -158,7 +158,7 @@
       .example-grid{
         background: rgba(155, 89, 182, 1);
       }
-      .wrap{
+      .container{
         background: rgba(155, 89, 182, 0.3);
       }
       .example-home,#adpacks {
@@ -184,7 +184,7 @@
       .example-grid{
         background: rgba(243, 156, 18, 1);
       }
-      .wrap{
+      .container{
         background: rgba(243, 156, 18, 0.3);
       }
       .example-home,#adpacks {

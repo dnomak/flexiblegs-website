@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>3 Column Grid - Example</title>
+  <title>Hidden Columns - Example</title>
   <meta name="robots" content="noindex,nofollow">
 
   <!-- Google Font -->
@@ -32,22 +32,23 @@
 </head>
 <body>
 
-  <!-- 3 Column Grid - Example -->
+  <!-- Hidden Columns -->
     <div class="container">
       <div class="row gutter-2-xs">
-        <div class="xl-1 lg-1 md-1 sm-1 xs-1">
-          <div class="example-grid">03</div>
-        </div>
+        <div class="hidden-xl lg-5-1 md-5-1 sm-5-1 xs-5-1"><div class="example-grid">xl <span>Visible</span></div></div>
+        <div class="xl-5-1 hidden-lg md-5-1 sm-5-1 xs-5-1"><div class="example-grid">lg <span>Visible</span></div></div>
+        <div class="xl-5-1 lg-5-1 hidden-md sm-5-1 xs-5-1"><div class="example-grid">md <span>Visible</span></div></div>
+        <div class="xl-5-1 lg-5-1 md-5-1 hidden-sm xs-5-1"><div class="example-grid">sm <span>Visible</span></div></div>
+        <div class="xl-5-1 lg-5-1 md-5-1 sm-5-1 hidden-xs"><div class="example-grid">xs <span>Visible</span></div></div>
       </div>
     </div>
     <div class="container">
       <div class="row gutter-2-xs">
-        <div class="xl-3-1 lg-3-1 md-3-1 sm-3-1 xs-3-1">
-          <div class="example-grid">01</div>
-        </div>
-        <div class="xl-3-2 lg-3-2 md-3-2 sm-3-2 xs-3-2">
-          <div class="example-grid">02</div>
-        </div>
+        <div class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs"><div class="example-grid">xl <span>Visible</span></div></div>
+        <div class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs"><div class="example-grid">lg <span>Visible</span></div></div>
+        <div class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs"><div class="example-grid">md <span>Visible</span></div></div>
+        <div class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs"><div class="example-grid">sm <span>Visible</span></div></div>
+        <div class="hidden-xl hidden-lg hidden-md hidden-sm hidden-xs"><div class="example-grid">xs <span>Visible</span></div></div>
       </div>
     </div>
 

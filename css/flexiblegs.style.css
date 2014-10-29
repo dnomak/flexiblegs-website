@@ -29,10 +29,6 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     margin: 0 0 0 0; /* Footer Fixed */
   }
-  .wrapper {
-    overflow: hidden;
-    position: relative;
-  }
   .overlay{
     background: #000;
     opacity: 0.3;
@@ -517,6 +513,11 @@
   .example-2-grid-gutters iframe.example{height: 768px;}
   .example-3-grid-gutters iframe.example{height: 768px;}
 
+  .example-1-grid-tools iframe.example{height: 360px;}
+  .example-2-grid-tools iframe.example{height: 360px;}
+  .example-3-grid-tools iframe.example{height: 360px;}
+  .example-4-grid-tools iframe.example{height: 155px;}
+
   #adpacks {
     padding:10px;
     background: #333;
@@ -924,6 +925,12 @@
   pre .xsstyle {
     color: #f39c12;
     width: 100px;
+  }
+  pre span.nonestyle{
+    width: 100px;
+    text-align: center;
+    background: transparent;
+    border: 1px solid #e1e1e1;
   }
   pre.classnames {
     margin: 10px;
