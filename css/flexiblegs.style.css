@@ -570,6 +570,9 @@
     padding:5px 15px;
     border-radius: 20px;
   }
+  a.compatible:hover{
+    color: #fff;
+  }
 
   .startup-folder{
     position: relative;
