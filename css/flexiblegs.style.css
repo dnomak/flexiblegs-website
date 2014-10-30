@@ -558,6 +558,19 @@
     padding: 0 5px 2px 5px;
     border-radius: 20px;
   }
+  a.compatible{
+    position: absolute;
+    right: 20px;
+    top: 32px;
+    display: inline-block;
+    color:  #fff;
+    background: #3A99D8;
+    font-size: 11px;
+    line-height: 14px;
+    padding:5px 15px;
+    border-radius: 20px;
+  }
+
   .startup-folder{
     position: relative;
   }
@@ -993,7 +1006,7 @@
 
     @media (max-width: 1024px) {
       .color-circle,.device-hidden{display: none;}
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #e74c3c;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #e74c3c;}
       a.close{color: #e74c3c;}
     }
 
@@ -1004,7 +1017,7 @@
       .example-code-bg .md-2-1.text-right {
         text-align: center;
       }
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #1abc9c;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #1abc9c;}
       a.close{color: #1abc9c;}
     }
 
@@ -1017,10 +1030,13 @@
       .social-buttons-bg {
         padding: 10px 0 10px 0;
       }
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #9b59b6;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #9b59b6;}
       a.close{color: #9b59b6;}
       #menu{
         min-height: 635px;
+      }
+      a.compatible{
+        display: none;
       }
     }
 
@@ -1030,7 +1046,7 @@
       .btn {
         padding: 0px 20px;
       }
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem {background: #f39c12;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #f39c12;}
       a.close{color: #f39c12;}
       a.flexiblegs-rails{
         position: relative;
