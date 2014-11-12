@@ -156,13 +156,13 @@
 
     @media (max-width: 667px) {
       .example-grid{
-        background: rgba(155, 89, 182, 1);
+        background: rgba(243, 156, 18, 1);
       }
       .container{
-        background: rgba(155, 89, 182, 0.3);
+        background: rgba(243, 156, 18, 0.3);
       }
       .example-home,#adpacks {
-        background: #9b59b6;
+        background: #f39c12;
       }
       .example-home.slider {
         padding:62px 0;
@@ -182,12 +182,12 @@
 
     @media (max-width: 414px) {
       .example-grid{
-        background: rgba(243, 156, 18, 1);
+        background: rgba(155, 89, 182, 1);
       }
       .container{
-        background: rgba(243, 156, 18, 0.3);
+        background: rgba(155, 89, 182, 0.3);
       }
       .example-home,#adpacks {
-        background: #f39c12;
+        background: #9b59b6;
       }
     }

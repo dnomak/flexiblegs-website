@@ -621,10 +621,10 @@
     border: 1px solid #1abc9c; color: #1abc9c;
   }
   a.smstyle-circle.active, a.smstyle-browser-click.active {
-    border: 1px solid #9b59b6; color: #9b59b6;
+    border: 1px solid #f39c12; color: #f39c12;
   }
   a.xsstyle-circle.active, a.xsstyle-browser-click.active {
-    border: 1px solid #f39c12; color: #f39c12;
+    border: 1px solid #9b59b6; color: #9b59b6;
   }
   a.xlstyle-circle:hover, a.xlstyle-browser-click:hover {
     border: 1px solid #3498db; color: #3498db;
@@ -636,10 +636,10 @@
     border: 1px solid #1abc9c; color: #1abc9c;
   }
   a.smstyle-circle:hover, a.smstyle-browser-click:hover {
-    border: 1px solid #9b59b6; color: #9b59b6;
+    border: 1px solid #f39c12; color: #f39c12;
   }
   a.xsstyle-circle:hover, a.xsstyle-browser-click:hover {
-    border: 1px solid #f39c12; color: #f39c12;
+    border: 1px solid #9b59b6; color: #9b59b6;
   }
 
   iframe.example {
@@ -937,11 +937,11 @@
     width: 100px;
   }
   pre .smstyle {
-    color: #9b59b6;
+    color: #f39c12;
     width: 100px;
   }
   pre .xsstyle {
-    color: #f39c12;
+    color: #9b59b6;
     width: 100px;
   }
   pre span.nonestyle{
@@ -1035,8 +1035,8 @@
       .social-buttons-bg {
         padding: 10px 0 10px 0;
       }
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #9b59b6;}
-      a.close{color: #9b59b6;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #f39c12;}
+      a.close{color: #f39c12;}
       #menu{
         min-height: 635px;
       }
@@ -1051,8 +1051,8 @@
       .btn {
         padding: 0px 20px;
       }
-      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #f39c12;}
-      a.close{color: #f39c12;}
+      #menu,.new-version,a.comingsoon,a.readme,.new-gem,a.compatible {background: #9b59b6;}
+      a.close{color: #9b59b6;}
       a.flexiblegs-rails{
         position: relative;
         width: 165px;
