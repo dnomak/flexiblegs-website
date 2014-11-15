@@ -82,6 +82,9 @@
     min-height: 48px;
     overflow: hidden;
   }
+  .wrap.margin-top{
+    margin:-2px!important;
+  }
   .example-grid {
     background: rgba(52, 152, 219, 1);
     color: rgba(255, 255, 255, 1);
@@ -95,6 +98,10 @@
     font-weight: bold;
     font-size: 14px;
   }
+  .example-grid.margin-top{
+    margin: 2px 0;
+  }
+
   .example-grid span {
     /*opacity: 0.3;*/
     font-weight: 300;
