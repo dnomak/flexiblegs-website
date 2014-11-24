@@ -525,6 +525,24 @@
   .example-6-grid-tools iframe.example{height: 140px;}
   .example-7-grid-tools iframe.example{height: 88px;}
 
+  #owtg {
+    padding:10px;
+    background: #333;
+    border-radius: 6px;
+    margin: 25px 10px 0 10px;
+    text-align: center;
+    display: inline-block;
+  }
+  #owtg img{
+    border-radius: 3px;
+    max-width: 468px;
+    width: 100%;
+  }
+  #owtg span{
+    display: inline-block;
+    padding-bottom: 10px;
+  }
+
   #adpacks {
     padding:10px;
     background: #333;
