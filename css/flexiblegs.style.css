@@ -16,6 +16,7 @@
   .wrap > * {
     font-size: 12px;
     line-height: 20px;
+    text-align: center;
   }
   html {
     position: relative;
@@ -72,7 +73,13 @@
   #menu .h2{
     margin: 10px 0 0px 0;
   }
-  #menu a.h3{color: #fff; margin-top: 10px;}
+  #menu .h4{
+    margin-top:60px;
+  }
+  #menu .h4 a{
+    color: #fff;
+  }
+  #menu a.h3{color: #fff; margin-top: 10px; text-align: left;}
   #menu a.h3:hover{opacity: 1;}
   #menu a.h3 i{margin-right: 2px;}
   #menu .btn-white span {
@@ -90,7 +97,7 @@
     padding-top:15px;
     line-height: 0;
   }
-  .columns a{
+  .columns a, .columns-div{
     display: block;
     padding: 2px 0;
   }
@@ -100,11 +107,12 @@
   .column-link {
     background: rgba(255, 255, 255, 0.3);
     display: block;
-    height: 10px;
+    height: 12px;
     border-radius: 2px;
   }
   .active {
     background: rgba(255, 255, 255, 1);
+    height: 12px;
   }
   .total{
     padding: 15px 0 10px 0;
