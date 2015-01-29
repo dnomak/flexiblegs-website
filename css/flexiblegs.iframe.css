@@ -26,6 +26,7 @@
     clear:both;
     line-height: 20px;
     text-align: left;
+    display: block;
   }
   #adpacks a {
     color: #fff;
