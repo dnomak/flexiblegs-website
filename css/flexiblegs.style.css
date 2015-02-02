@@ -551,7 +551,7 @@
     padding-bottom: 10px;
   }
 
-  #carbon {
+  #carbonads {
     padding:10px;
     background: #333;
     border-radius: 6px;
@@ -561,10 +561,10 @@
     text-align: left;
     display: block;
   }
-  #carbon a {
+  #carbonads a {
     color: #fff;
   }
-  #carbon a.carbon-poweredby {
+  #carbonads a.carbon-poweredby {
     display: block;
     color: #9e9e9e;
   }
