@@ -54,6 +54,9 @@
     overflow: hidden;
     min-height: 584px;
   }
+  #header #carbonads {
+    margin-top: 40px;
+  }
   #menu {
     background: #3498db;
     color: #ffffff;
