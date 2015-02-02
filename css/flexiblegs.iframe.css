@@ -15,9 +15,9 @@
     line-height: 20px;
   }
 
-/* Adpacks */
+/* carbon */
 
-  #adpacks {
+  #carbonads {
     padding:10px;
     background: #3498db;
     border-radius: 6px;
@@ -28,15 +28,15 @@
     text-align: left;
     display: block;
   }
-  #adpacks a {
+  #carbonads a {
     color: #fff;
     text-decoration: none;
   }
-  #adpacks a.adpacks-poweredby {
+  #carbonads a.carbon-poweredby {
     display: block;
     opacity: 0.5;
   }
-  .adpacks-img {
+  .carbon-img {
     float: left;
     padding-right: 10px;
   }
@@ -120,7 +120,7 @@
       .container{
         background: rgba(231, 76, 60, 0.3);
       }
-      .example-home,#adpacks {
+      .example-home,#carbonads {
         background: #e74c3c;
       }
       .example-home.slider {
@@ -146,7 +146,7 @@
       .container{
         background: rgba(26, 188, 156, 0.3);
       }
-      .example-home,#adpacks {
+      .example-home,#carbonads {
         background: #1abc9c;
       }
       .example-home.slider {
@@ -169,7 +169,7 @@
       .container{
         background: rgba(243, 156, 18, 0.3);
       }
-      .example-home,#adpacks {
+      .example-home,#carbonads {
         background: #f39c12;
       }
       .example-home.slider {
@@ -195,7 +195,7 @@
       .container{
         background: rgba(155, 89, 182, 0.3);
       }
-      .example-home,#adpacks {
+      .example-home,#carbonads {
         background: #9b59b6;
       }
     }
